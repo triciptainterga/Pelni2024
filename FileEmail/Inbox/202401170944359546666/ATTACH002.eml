@@ -1,0 +1,338 @@
+ARC-Seal: i=5; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=m41WpPrEFZq/Q1O1NdrnKweurVW99jFZMHV+j4Gj4X3irWWv+EaxE98ZiXoBEjcA9DCnzk3TseOu4lZzvWeKg/20DgiMgxGGnztmr7qRD79CeHxO9z4iK7YXkPnhS4pS155NwBBuYl621rNnMN097AJpYXKNvhL/KfAWNZeI1q1US4rDGvXNbwjlvXobbZIcr+P4Yg55AZDvacU9jaL41a1b6H5hegNPuXa8LhMs56ZdO/5NaVgFg7+Jg7czBCua40rP2jggTI+KSuXUcbpO+13A9STZxczHpeapAz3bwP87aksMUErpVFsho6oRXOqTMBH48KCzZWHDMHkqPrVhew==
+ARC-Message-Signature: i=5; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=yx0/OS8vgqD3dIKY5VQSZPu2t5OUnqYccUGnTSxcrr4=;
+ b=fEj5dkEOzwQNO3EkRbbP6MqkM70hbbkFxH8FsGcHaM2IU/6yhIUv+uLsQ85NzhKMjLjtwuKBNx4hW1qYM1vxVpW22rx6pvqA5UobsO6n0gv8seWMTO975Sc6MLTxWdbiq36FhwdU/zcznXC37qgR1CmiZyT8K8OirHJGdhZjNnEu2BU08CmqswZREMAQPmkX4Iq234EWpcGY7+JC24cCtFqGNtd0opvju1M5UXhPLAM9y1btS8FCqYxHjAKOKlH+Xsuw2XtEhKM6SJpF27itZfGPzRFnnX6I4ablOOmDcvFWDN7NJquHMDvqyCtS6WdO1Q8lvPdvsH2gvZRhawmsDQ==
+ARC-Authentication-Results: i=5; mx.microsoft.com 1; spf=none (sender ip is
+ 104.47.110.41) smtp.rcpttodomain=brilifecoid.mail.onmicrosoft.com
+ smtp.mailfrom=cantas.co.id; dmarc=none action=none header.from=cantas.co.id;
+ dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com; arc=pass (0 oda=0 ltdi=1)
+ARC-Seal: i=4; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=SNIC6sm4TZ1X+xH6aRLp6rINvQ3G7L/te4OhQcbfre/Exw2jyGjSIiLl3JlZFLk6HcIIuogDnto+mdUPvLzS3OZVg5+k0Mj1gpgy7MJn2+GwU3o6SN09kHKfPr/iuk8AUMn4Ito4Lz8F3caZrTIC8S/L6p4tAmbK1aMhumBod243iz/OBWDh4zdLs+bd54Xj3sdjeEA2Jjzkc/nk/jw3KW9vBRtBkW6lqMqiMVknR+Wa8DH4p7Vbt2EOld50NEQESuouthimic9hLBzc71wMJ3qv0dsp1ypdDPVC4ukn8Dn820q4oQrGTd0AezlT0OAlXdShT9QVInRcbHaohC632A==
+ARC-Message-Signature: i=4; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=cRWP4TZtg8GSEyXss3yrylrDWGXdMJ4PajZwKYJXwEo=;
+ b=g+DaWQDcl7AmRvc/bt2uCUdYNuDxtx4FAs5ENQE/dOBqLg2VH34eotCaF7dmdqMHuVH7aRelWFJuOQ07qGBp9aEqrmAcFNwoW9i9SzizOsBhaNRZMGadqwqZNtIdM8QnBu38KDAiYWtKy3MiiP3Ef0aPyRh5kQyUYlUoD1wAzqlkSM81BlrIom227zbFkw/p06iPTwaLyWCAFuj5Alamw0wCsMsv6hGFx18PJDjAG9Ga71oP/OBHdlB0hRrbFiImJn52W75/Z1Re9TNsp1qAn2vRwrTutQ/pURmWk7eKxuRn/Gm2urLcC648kg+V8H51S3skQzbcd+Mlow9/eDr3HQ==
+ARC-Authentication-Results: i=4; mx.microsoft.com 1; spf=none (sender ip is
+ 104.47.110.41) smtp.rcpttodomain=brilifecoid.mail.onmicrosoft.com
+ smtp.mailfrom=cantas.co.id; dmarc=none action=none header.from=cantas.co.id;
+ dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com; arc=pass (0 oda=0 ltdi=1)
+Received: from PS2PR03CA0007.apcprd03.prod.outlook.com (2603:1096:300:5b::19)
+ by KL1PR01MB5136.apcprd01.prod.exchangelabs.com (2603:1096:820:df::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7181.26; Wed, 17 Jan
+ 2024 02:44:20 +0000
+Received: from HK3PEPF0000021C.apcprd03.prod.outlook.com
+ (2603:1096:300:5b:cafe::1f) by PS2PR03CA0007.outlook.office365.com
+ (2603:1096:300:5b::19) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23 via Frontend
+ Transport; Wed, 17 Jan 2024 02:44:19 +0000
+Authentication-Results: spf=none (sender IP is 104.47.110.41)
+ smtp.mailfrom=cantas.co.id; dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=cantas.co.id;compauth=fail reason=001
+Received-SPF: None (protection.outlook.com: cantas.co.id does not designate
+ permitted sender hosts)
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (104.47.110.41)
+ by HK3PEPF0000021C.mail.protection.outlook.com (10.167.8.38) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7181.13 via Frontend Transport; Wed, 17 Jan 2024 02:44:18 +0000
+ARC-Seal: i=3; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=DASHzROPgi/5Q5AyUARhVq9OaR30VbnBpM/WgHdcNjsRDJAGi7bQ256UhY0/pgruYnBWreO3uAMBDUTyk9L2y9BX8aovUVu1/630f+aMDtenEhCwOIEKbskswFSwCYrhRJ45JnsGZGTHgGgXQm7OAlkXOBDq7wegxc8CioNB0QSk+b5P2byJ7T6ulmYpFicd+iuWuItftzOpkZXIhPoDN39R3lKQZNrLRbmE+B4ijxahFbsGDL06KinzJVSPdhCTDwBh6AWdEHaripJEgbnNHXZ76k2qCNo8c/KRIqpVtZ+Rxzc8y0evFC9bNZHjE4tBpcfi4NCEy18xtnYu5cbB6g==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=cRWP4TZtg8GSEyXss3yrylrDWGXdMJ4PajZwKYJXwEo=;
+ b=Ttmn74HjvXLLzz3e8GdgkllS991W0tfZwok/qLBr8HgyMSbcvMseTUDW5jyh5/Vvh/7NbeDB12JRnKbGVNlDZZEe6QKyWLHMRgC4VelTWhHq3RwNlRIPVtMIqrdK38U0OBkoR8tOAmBwT7TBQXB2FbYklF3smZTNSltnF+XJVkGIbc18QkQtN2jbRs+gfLzTt4CtVv4OcNqgXsDeYca720TyeDs3bXOKC5VJQawExe7Q9tD8tsMwAhtjgwpzy99qwgZlFT7efw+13FagQvJJzvvuQiTwJMr/mlUBbVXCd1afX+MMAU1AByU+UjcznkieDDuMf/1zgWw2tx8MA8bo7w==
+ARC-Authentication-Results: i=3; mx.microsoft.com 1; spf=none (sender ip is
+ 104.47.110.40) smtp.rcpttodomain=brilifecoid.mail.onmicrosoft.com
+ smtp.mailfrom=cantas.co.id; dmarc=none action=none header.from=cantas.co.id;
+ dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com; arc=pass (0 oda=0 ltdi=1)
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;
+ b=WUmwQ47Jv/a1F8qjQGSbstfqEdkc4m5AO8kW23ogbB+nuJj+ZuB7Fdad3/ra79KmARO6pCPqzzPZs7OiGgKRvQ/BE2JyVriS7W+VrDLtpwFdT7VcToK7fYhtiIyzpT53//cPJPaLxB7scbtc7+eeypTI+CPydQXxgT8xClzlTYYTlih6jnnbJqOYDxtxfLp4G9+l8eMuWExDvmD6QxZjZwX3vaW5XYLnqN0zjOSxOBPtTQLvp4ob0Nb+MW7IdcExKvKXCQI8I2ESiO0rLwZBndDA+2FIw5UM6MShVCOSHSVlfX7mRoEweUjxuxPxqrC2BTaOq7JDQ8M96/rgFcWPJw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2JCqaM2bVWd9oAnc53tVPrz4qPdLaskHPR+b6OyvJOM=;
+ b=aZRdnBF0ps1APsttecv372HSYmSCDsXQZTTd/+DN16y8aYPCQC5J6sCvk1nx1HUd6qxAllOFahAmPE612DFySYa3FZpI4yyx4oZXaZm4LmSzIp7GOb1ckyot//o9luMy1zD9KVqSy1GQ/4/V+SylRMGjLkokuWct5YEiIGTFSsT2fKggQUMRxGkQzB9ti+dF0X8ffeWLDOHzHwOiIvNJ/QAoJAhOmSVFSN5x+RDWac4KqZMSgvxFOGv7y/0jLF5MynH+LfpO4Yd8zeAOkHidUq5kP4G2i1DrrvyBIPcViuyIxL/NVrz1ZG7oNcZwl6QIwuVZVCJBME/zpA7OJ3OibQ==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=none (sender ip is
+ 104.47.110.40) smtp.rcpttodomain=brilifecoid.mail.onmicrosoft.com
+ smtp.mailfrom=cantas.co.id; dmarc=none action=none header.from=cantas.co.id;
+ dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com; arc=pass (0 oda=0 ltdi=1)
+Received: from SG2PR02CA0123.apcprd02.prod.outlook.com (2603:1096:4:188::22)
+ by SI2PR01MB4637.apcprd01.prod.exchangelabs.com (2603:1096:4:19e::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23; Wed, 17 Jan
+ 2024 02:44:15 +0000
+Received: from SG1PEPF000082E2.apcprd02.prod.outlook.com
+ (2603:1096:4:188:cafe::6e) by SG2PR02CA0123.outlook.office365.com
+ (2603:1096:4:188::22) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23 via Frontend
+ Transport; Wed, 17 Jan 2024 02:44:15 +0000
+Authentication-Results-Original: spf=none (sender IP is 104.47.110.40)
+ smtp.mailfrom=cantas.co.id; dkim=fail (body hash did not verify)
+ header.d=cantas-co-id.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=cantas.co.id;compauth=fail reason=001
+Received-SPF: None (protection.outlook.com: cantas.co.id does not designate
+ permitted sender hosts)
+Received: from APC01-TYZ-obe.outbound.protection.outlook.com (104.47.110.40)
+ by SG1PEPF000082E2.mail.protection.outlook.com (10.167.240.5) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7202.16 via Frontend Transport; Wed, 17 Jan 2024 02:44:15 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Qgwxel3hE8+JAtoLzz8LotsXZKzGacIZgoZO6RlZtkHM+3isAer0Z1gcKSI3bmf+MJ8oDYk6K1aXlvpKE2ooM7SN4HIBNvHgW566xV7T/3Q6RGGMVdT1cMCLx//SeiEhnD/UAoXNvZ7dX5h/dvAd3HJmcXI0cxjsdjBWuUosBVaIR+s63bQBvG2lSlmEbCpMstbJZhmDrKQBJGVSgFTPlYwFk1a44Y2TG48RyzB/3MxC77UFFR9OkSrAmMxh6/QocPenn2UdbT3i4ZPRjENxtb5BgpRyidgvNJn3XAWOG3d+tEIbV6+itP1YnCjo2kacUWqs9V/VrhoFCmTmNEwTtQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2JCqaM2bVWd9oAnc53tVPrz4qPdLaskHPR+b6OyvJOM=;
+ b=MRZFPtknbBv4m+rDK6nBdakYEuxsuDpb35YTJkE+dHaYoxqBljutOcwc0W+vLFzwNfI/z86h7jPM7GNst5+miwu9lfmX6b9JAc1zlZ7FoU7Hlcb1wqPfMcrBaZS+8IdMYMhowUkIuvbLXR9mUS6zGYb2lh6TyS5nnI9Jdd8M5rYTnN8w6r4NPCwr+sjgunWAKZBJ9vsPkkeVWeh2EvBKyj0TG5F2HUKbOJ+akRU/HcqTV3BfwHJmKOzxKLYHrlbrpdwPxWAx31ETrb83nQ2G2hcLioKPQExbX1oidLQOiEFZ/EcgN2hIxDRYLpBmtr88PUWTjfK4j5YJ8rCmackuyQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none (sender ip is
+ 209.85.167.174) smtp.rcpttodomain=brilife.co.id smtp.mailfrom=cantas.co.id;
+ dmarc=none action=none header.from=cantas.co.id; dkim=pass (signature was
+ verified) header.d=cantas-co-id.20230601.gappssmtp.com; arc=none (0)
+Received: from SG2PR06CA0200.apcprd06.prod.outlook.com (2603:1096:4:1::32) by
+ SEYPR01MB5744.apcprd01.prod.exchangelabs.com (2603:1096:101:1a5::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23; Wed, 17 Jan
+ 2024 02:44:10 +0000
+Received: from SG2PEPF000B66CA.apcprd03.prod.outlook.com
+ (2603:1096:4:1:cafe::8e) by SG2PR06CA0200.outlook.office365.com
+ (2603:1096:4:1::32) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23 via Frontend
+ Transport; Wed, 17 Jan 2024 02:44:09 +0000
+Authentication-Results-Original: spf=none (sender IP is 209.85.167.174)
+ smtp.mailfrom=cantas.co.id; dkim=pass (signature was verified)
+ header.d=cantas-co-id.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=cantas.co.id;compauth=pass reason=106
+Received-SPF: None (protection.outlook.com: cantas.co.id does not designate
+ permitted sender hosts)
+Received: from mail-oi1-f174.google.com (209.85.167.174) by
+ SG2PEPF000B66CA.mail.protection.outlook.com (10.167.240.22) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7202.16 via Frontend Transport; Wed, 17 Jan 2024 02:44:09 +0000
+Received: by mail-oi1-f174.google.com with SMTP id 5614622812f47-3bb53e20a43so7149731b6e.1
+        for <guntur.santosa@brilife.co.id>; Tue, 16 Jan 2024 18:44:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1705459447; x=1706064247; darn=brilife.co.id;
+        h=content-transfer-encoding:mime-version:date:subject:to:from
+         :message-id:from:to:cc:subject:date:message-id:reply-to;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=SMlD4XeYuZNelo7WEMdi/psv+Repm//Qjw2nwGW1447SmXfAcD7v2HRbCb/+geoTIo
+         8FCU0LIep+iuiJ3m235em/lqnzYgCDgEeKwzVJnW8bMrjmmZsPGnPXCPV513TUD9Y8V6
+         rrZtgicR9EvUSVfNrfu/JqsCXep1Twi9UywbGNBJhZpgozOWX9yAl61+zH7k0UF6NmHN
+         xcsDGtJYl/meZKA3pQ9LP0klpPdprVo8Az55wNqHmFr/+D3HGOuC0gv86N3A9azr+DMS
+         cYlqPZyi1pdv1rvGDnac8W6VuLSaoQncSS+CsuSLnuk9GxbTckcYdO5AAn1zyet/ZXgw
+         1s4g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705459447; x=1706064247;
+        h=content-transfer-encoding:mime-version:date:subject:to:from
+         :message-id:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=bEy4qF4523T6UW30XdB4uk6kDFrPG3WNbeb2jDWTA7hI7gehxwnrpHPsUV+k7uffCX
+         TptTkd87hsDRDwx/MxXyGUydRwyeOsCRv/EWSMKcGDGjnUQJmRPsmSXDc4RR1dkTl+LX
+         EMSpLIcNDFemrCTaj+IwgMDuSuZcNBpFwURBOaqAdGgA8MqEMhPR5pYs3JLnTfBNbjp4
+         3AiIcZOPkuBxfqJjGJ5y2LjMqn08V5RPMykyP7kK9l9oDLzw6kV9+zf9CZnaZWo8S9sK
+         B0LqmV+IB5M6w3q5OYE3hW8yduOBeF/MuBZcyUSk7ebjiLt4Uuf183vV0LAQWKhnKJ/Q
+         qETw==
+X-Gm-Message-State: AOJu0YyqP7fxXyg75SbpQ06dl2uEEShPedfEdhZzNT/WqK7aRsUVTii5
+	4qBWWAHkeFbKZZ/A+/z/Np4GcPgR/N8KmVz1Rcz0KSKWU90=
+X-Google-Smtp-Source: AGHT+IH2Vga2dawa1a9s3R0GmRpqRpOLH5bv60/wt0BdqY4F4HnI5sfKBk+WIJJnv6aVchsxiACquQ==
+X-Received: by 2002:a05:6808:3a19:b0:3bd:72e1:f51e with SMTP id gr25-20020a0568083a1900b003bd72e1f51emr6786378oib.3.1705459447164;
+        Tue, 16 Jan 2024 18:44:07 -0800 (PST)
+Return-Path: care@cantas.co.id
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id s14-20020a056a00178e00b006dac91d6da5sm282369pfg.68.2024.01.16.18.44.06
+        for <guntur.santosa@brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Jan 2024 18:44:06 -0800 (PST)
+Message-ID: <7f12de5a143fc07bb5f58dff11faf738@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <guntur.santosa@brilife.co.id>
+Subject:
+Date: Wed, 17 Jan 2024 09:44:03 +0700
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-EOPAttributedMessage: 2
+X-EOPTenantAttributedMessage: 557976a8-dd89-479a-bf82-ec18df17e878:2
+X-MS-TrafficTypeDiagnostic:
+ SG2PEPF000B66CA:EE_|SEYPR01MB5744:EE_|SG1PEPF000082E2:EE_|SI2PR01MB4637:EE_|HK3PEPF0000021C:EE_|KL1PR01MB5136:EE_
+X-MS-Office365-Filtering-Correlation-Id: f9abb284-bd07-4a0e-2e8a-08dc170633ea
+X-LD-Processed: 557976a8-dd89-479a-bf82-ec18df17e878,ExtAddr,ExtAddr,ExtAddr
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?utf-8?B?aDl3SEhha2VvNVVIRFZqU1NwT0xoNFJVbGMzODVJSEc0VHJ2SnE4QU41Q0JU?=
+ =?utf-8?B?OVowWDhNcW5FNmV5VHZaYk1XbGdEblZCb2M0UXhMSm5ScFZ1ekpmeWFHcXZS?=
+ =?utf-8?B?OEJzYXhNYkQxOERPUFNnMGJ4TTlwRVprUUNwSi9pME9kSXplYjV1anVKTldv?=
+ =?utf-8?B?aG9IWGpKdG56VUVUUVExTDJMWktSSjhaVXRXQzdNeElDRE1SSWZ2TmhFMU4y?=
+ =?utf-8?B?Q0VSdkJJR0Y4M05YSUxudEt4cWF2cXp6RHBYaExzaUtBQXVNNW9IbjVNSE5h?=
+ =?utf-8?B?cEdKNFNZV0NvLzc5VVJPRW1VejZ3SHB5bXh5NjBNOFB3UEVaVDFaV3JCNHJQ?=
+ =?utf-8?B?cmJ1d3NROXMwM1dIZ3lEbVRDZjloWEdyNUhDcCtheUZUVGE2QjlvNFIyMVZ6?=
+ =?utf-8?B?Q0RtRHdjai9DZFpWZjVLSTk3VG43MC9aSk9oZ0VVbnkrcVRGNU5LLzU0UGd3?=
+ =?utf-8?B?VlRCQmkzVmdFcGZLT05weENtMFdsY1FtMjVGV0xzQStzNHZsUGZRd1Nldzho?=
+ =?utf-8?B?UDB3VXpEQ1I2NTYyUDFyNSsxZjg4YURpblBFQkpkK1pQZmxkSk5Rb3VZdDBK?=
+ =?utf-8?B?SkNTbDMxYXB1WUUwbXBaUUVKdVhock5Yb240K2ZLc3dKbFlxMEJsakJKQWxH?=
+ =?utf-8?B?bnovKzFCa3Jhb3lBcUxxcXgrMTF1VElZYTJoTExvajN4YmlsMENXNndwUkdz?=
+ =?utf-8?B?aHUvN2NVR3dNdFN1NS9zSmxjYitRcXBDVitxRURqcjdQK1dxVzZrTExLdlAx?=
+ =?utf-8?B?VTdJQkRCaEk3NE9IQ28zWlROdnlNS01hbjJySzBPNHFMQkMvZlRNcFpPSlhK?=
+ =?utf-8?B?SE56aFBlbnMvYjQ3cWIzbVovM1lZem9WNThTdWwxbVN1TkVEc0h0eUk3amNI?=
+ =?utf-8?B?dHYvUURvYjJXdks4ZVhzSUhzMThOaVA1TWR6RVBQRy9ySzk0cTFRRkNIc0h4?=
+ =?utf-8?B?MVRtLzhObUN0REpsNkFtWkFXOFRjR25NQ0EyMWduc0QxMDc1ZS82Y3lsWlVV?=
+ =?utf-8?B?dVA1N1h1QkhvSXQvVUNJdWxXY21mRlkwRzBucDhQcEM2Q0hUdkE5cU81NzVF?=
+ =?utf-8?B?ak9NL05zUWlnbXFwaVVPbFpQOThKZ3N4dDVaRVgyd093WlIveE5zcERCUnRY?=
+ =?utf-8?B?YXhoa0NudVJ0bGRKR3N0UHQ0emFXdlFEYndjbDhmbVVuUC83V2ttdUVub0pY?=
+ =?utf-8?B?SjVPZUF0RkNQcFNFM3BPRHIzWjdZaytDcXd6YTRpdXQxcWsxbWJCK0ZGbm9C?=
+ =?utf-8?B?c08zWkFyS3dZbUUrTnFLRHdGa002TnZCZzZ4d3E4R1BieTh1K3dZK1pBUHlM?=
+ =?utf-8?B?ZTJ3TUhCRU9xNjZNNjZpRUVyWUhHeWpIZ3BXTkd6YWpCaWhPS29JWE85V1R1?=
+ =?utf-8?B?VzlONkEraDdCd3I0WUFCb1BzWjJsazJEQzk3WVJDanVsaHpwR3c5V1Q3RVht?=
+ =?utf-8?B?ejNLRWFGb21vellSNmtmV00yK3NhbTlqbVRRZU5hczh6ZU9WM1lMKzFzUHZM?=
+ =?utf-8?B?R3dLU2R0NUpJNTFPME1rd3FEa2xRRGJyQ3BtZHlQazVMYVJmQTgyVGtYTk14?=
+ =?utf-8?B?UzFsVHRPb3RYUWxvZ1RuRk5MZjBITnpKVVVkZDFKNGVqWS9qVzNaeFpLQ2NV?=
+ =?utf-8?B?c1ZRQ0VNckQ5TXo5MU5XeGtOaHZRc2s5aDM1Q2cyQzNvRXBrUzZ0ZVZJYkp3?=
+ =?utf-8?B?dlB0VEhhNk5udFR0UGpsV0NxQ3ZEYzNNejZpYkV4RGFTVlFBSGhOREoycExQ?=
+ =?utf-8?B?dEpJSTZGWjFHRGF4K1d2aU5iVWFYRWJtR2R3bU4vZHJXd3c4eWNGWDY1a0JN?=
+ =?utf-8?B?TExlbG4ydE5sZVJFNDFHSXI5QjUvWFZWR0hkZEJYTlgrVDNmV1RYdVI1b3RS?=
+ =?utf-8?B?a1NEQytocHpZeGJiWVdKZS91SjRWdGp3bVBkRExuWHFFVTB3SStiRTRKTG4z?=
+ =?utf-8?B?endCOWpFUUMyeGxSTDF5TTE2dXU1Qy8rak9TeVUyL3FVK3dzeHJ6a0VhK1hn?=
+ =?utf-8?B?RjZ5clUyaGhkcXR3UThsMUE3eVdvZDRUR1BDSTFoN2lPbUNnTTNOb20xaGhH?=
+ =?utf-8?B?Ynl5T3IwN1N5Nms3WHBsV1FMUGNxbXNJSFpxdTl5dGJ6bXI0U3JsUXkvV1ZH?=
+ =?utf-8?B?L3F6emE3Y1kxdzk3QzJCaGRxZW5NeGNqR3Rrd212TmtzRHd0NDBxQU45RGsw?=
+ =?utf-8?B?MXc9PQ==?=
+X-Forefront-Antispam-Report-Untrusted: CIP:209.85.167.174;CTRY:US;LANG:ms;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-oi1-f174.google.com;PTR:mail-oi1-f174.google.com;CAT:NONE;SFS:(13230031)(230173577357003)(230922051799003)(230273577357003)(451199024)(1096003)(336012)(26005)(2616005)(956004)(5660300002)(7596003)(36756003)(558084003)(86362001)(6862004)(24736004)(6666004)(108616005)(58800400005)(5406001)(356005)(7636003)(6220400001)(103166001);DIR:INB;
+X-ExternalRecipientOutboundConnectors: 557976a8-dd89-479a-bf82-ec18df17e878
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR01MB5744
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: SG1PEPF000082E2.apcprd02.prod.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: SG1PEPF000082E2.apcprd02.prod.outlook.com
+X-MS-Office365-Filtering-Correlation-Id-Prvs: 38425b65-f6b8-4e3d-8dea-08dc17062e44
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original: =?utf-8?B?c2dEc0I4WGFaR2tjb1ZpZ3BKeTYzbTNjeklCdUxZQkxoMUk2dFVicWwwQnhl?=
+ =?utf-8?B?TDdmcEtxUHkrSVoxekUxaHhGVTVVM0ovWFpHVzF1WXYyOFlEUUp4K1NzR21U?=
+ =?utf-8?B?QkswbzFBb0Vpdm1Id0ZFejFqSEdIK2QydTVYdTBlVFdhS3ZrYlBOSG1vai9s?=
+ =?utf-8?B?M2c2c0JRdnZOcVdtekNBc3Bzb3dldmxIMkZKUmJ5RG1mOHdMb2U3SUVxYjM1?=
+ =?utf-8?B?dTdWTVRaSWw0cE1qOWxtNzJ3K3prOTNkVHQxa3pWMGRucUFWN1EyRStQWm9r?=
+ =?utf-8?B?OW1UN3RUREVQcVRxUlQxQU5BYUJYZUYyWktFMDZ3UDM3UTR0VHloLzBzQjlr?=
+ =?utf-8?B?cjAvOXg1Uzc0bmNsTWxjQWExNjkrS1RZK05UTlhzUTdSZEd5R1QyS3Nsa25M?=
+ =?utf-8?B?MzFpb29uaW1PNmJhVGJkMUxhaXBvZC9SU1JEYjNGcVJGVGZ6S1NNNmQ1bTlW?=
+ =?utf-8?B?TjdwRW1Takg2a1FZQ1AzRG5PY0NZcEluVXpmQXNPWVRYT0Q1enUvalF0d01T?=
+ =?utf-8?B?TWlTL3ZPZ2NtMXdkeE1ZUHhSN1NTYkszQUVxaUphZmRZWGdHM0pEWkRQb2pE?=
+ =?utf-8?B?MG5WdEV3WjYycGtaeXR4ZytoQXhFcUREbGRUbmdObHVWTlZ3a1JaYlZWMjhx?=
+ =?utf-8?B?ODJLTVJXQXdRbnZ6NEp5cnJzazBKTHBKWWJweVRoVHAxRU1XUVVtcFVQWVRo?=
+ =?utf-8?B?dFhmRjEvN29nd3pxL1AwWEwzWk5Xck45Qm4zSlZZeU1lL1RyNDY2SnkyU2Zy?=
+ =?utf-8?B?MW53cDkrUDF2SnpEbEdZMmJVTityTEg4cHR0eFJXZXRFQ0VUYXErNm5NcmNi?=
+ =?utf-8?B?bW1wdjRlbmtyUVFYQlVRc1hLZWZHZDA0MTFzb1BCeXdrNTRxQ3VEaUNQcFdC?=
+ =?utf-8?B?QXIzZ0xRdWdpWHNYdHN5M3RiWHE4R1N6SUVTVFhobzFlSGFLbEhyREo1c3dF?=
+ =?utf-8?B?cHVnVHgycUs5VWJ0ais3VDlDbUk3RE9KZ2syQm5OYkZiV2hTTWxKY3l1UVNI?=
+ =?utf-8?B?UlJFcHZQLzdIanFtUDZHb0d2MDgvSUNtaTJHVXlBbEErS1kvUHpTM3ZLSk1J?=
+ =?utf-8?B?QkMxN2JsWnFlRXNZTkVCVEJHT1RraXdYb213TVlEZXRsQnV5SDJXQ2l5OVJx?=
+ =?utf-8?B?a1AxUkphRlRMcngyVVNMQTNBL1ZCYlZ1cC9HSUZlbHlPckkvZ21OQ1F0SWVL?=
+ =?utf-8?B?Q2lKQk5vUFhZWWEybS91eWx5SzI1Skd0TjJxWmE5SVNqbTZxc3FnYTlweUk4?=
+ =?utf-8?B?eDlNb3NEbmNjSUxHV0hjbkpJRlJEUUpyRFVoejZpditiK0NzUmpqZHhwQm9p?=
+ =?utf-8?B?WkNFYTdXK2lDZm5JMjZXWkd3eGNKOEVLVjBSaWpUditVM2c1bHFmRjJpUHNl?=
+ =?utf-8?B?QjhFUjNVNVFHNy9lbUJRSkl6VjNuVTN4YlpJQk9TYXloV0pPU09ENDhySzNr?=
+ =?utf-8?B?UWljMG53V3picmxaVzdGKzN5ZFQyRGwvaU94UTRwaUk2OElJUzlad3o1MW5E?=
+ =?utf-8?B?eXBzVjN6TXc1MTlvNWxkR3V3N1ZvYTA2amFYN1pSc0l6ekNqT0ErcUdrMTdR?=
+ =?utf-8?B?bC9wMEl3RTNHU3l3bzB6ZEErUmVFWUFyYlBub3lEQ1ZBeXA2RTRibVFWWnN2?=
+ =?utf-8?B?YXpWbFE2MVA2Snd1OUxubmNBaGJLOTY1Z3RWZEQ3U1NpZGV0dDRZYXJoQU9J?=
+ =?utf-8?B?YVE2THdjNXRzcE5kSXJ1UnFXQW8zVTIwWGJ4Z0pDZjhqTkVsTzhCQ1JvcFlz?=
+ =?utf-8?B?cUZvd2VRUVRpWFRvbmY5eWl6TEtNbHV5VVlaUTdTdXUxMGhXaXZWRXN5dTBG?=
+ =?utf-8?B?UlZTOE9zV1NUMmJDRlRiOVFJY016UHZxcml1N3Y4d2k0SFBZWlRNYWQ4clZY?=
+ =?utf-8?B?Z3QvS3luL2luOUxwbm5XbUoxS3RuRU02dFlDK0tLa1V6SUFKT1FuSFJEenBW?=
+ =?utf-8?B?eHlqVGUrNGJGaG5RNnRLQUhvRWppSVM1RWR1UkFPOTJCaWczOWtxVmVDT3JW?=
+ =?utf-8?B?VC81MzNYSVJQRmZwZi94NXB1cDl3eUhVd1YwY3JEWnhLWldmUDBkRHNwYnNJ?=
+ =?utf-8?B?enhCL3pzSmMwMEMyQ09PckRlcElEK2cvQXBKTmtZS0RCSHBtZEVLbm9rRENp?=
+ =?utf-8?B?S2UzelZldFZEbmhiaDlRMzR6WE1MTG9ZZzZuTUVHUHBqNmpMVEhxSVZjUDI3?=
+ =?utf-8?B?cjJwZXl1cmdiVDV4dHlDT1p3cTEwdktNYUpoQ0RrbzVybldMZEMxcFo2eXNG?=
+ =?utf-8?B?QUx2cXF1d2trU09qZXVrR2hMNFBZMWRBamE4UitTWHRleitFdUFwaWhraVh3?=
+ =?utf-8?B?NzAvZVQrQ0E3ZEhRalZhUGdtS3hxdlBUYVdQb1hLQXlaNTQzNnBpVmpQWkwx?=
+ =?utf-8?B?d2VOdmU5TkNRWFd5b0krcEprN0ErOHRHdUplT0swU3BQMlFvZ01JM3FJanph?=
+ =?utf-8?B?YzFkaE5aL3dWTFk4aE1KcklCYSttRmxMTmQ3SzJDL0FsOUNwWU84LytmUmpo?=
+ =?utf-8?B?Ny81QTVPcFk4ckhFT0FBYlk3WWkxNVFtbGpDZ1FWOE51RWw2bjBEcis4eVd2?=
+ =?utf-8?B?a3p3YmRYeFk3RS9zb29aWVRTVmpkeHdzdnhsVlNJWFcrTzdzUHFKSEU2NkE5?=
+ =?utf-8?B?a2JrbWV1MGtic2l1Q2FRU2p2eWd2VUxxU1U1UGkzbEN6WSszSlg0U3M2M24v?=
+ =?utf-8?B?bm1qM3VKMVZRcHpMQnFsVDc4Q0d4UUdpTlRuV0ZzbUdyUGk0QXF1dnhxaWVq?=
+ =?utf-8?B?VjBLeFFBNTNpSFZxNG1ST216YUdpbTdWQTB6c0pFUERJc0kvK240dHBnUTNO?=
+ =?utf-8?B?UkxqU25LcHh2TFNWMlZWTUo1d1VWZUJDZlJObklTY2dBVWNJSW1kV3R5WGxh?=
+ =?utf-8?B?cG9iSWNIYS9nbWt1Y0VSN1k3TE1TSE9TM2hmSTB0OTRCMGtTVGZtQkhFd3RM?=
+ =?utf-8?B?ZjlUS0NWWGthYlE4YWZ2UjZyOUUybzRpVkx4VDE4Z3RNSDZSNFE9PQ==?=
+X-Forefront-Antispam-Report-Untrusted: CIP:104.47.110.40;CTRY:JP;LANG:id;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:APC01-TYZ-obe.outbound.protection.outlook.com;PTR:mail-tyzapc01lp2040.outbound.protection.outlook.com;CAT:NONE;SFS:(13230031)(230273577357003)(230173577357003)(230922051799003)(451199024)(5660300002)(1096003)(6862004)(4744005)(58800400005)(956004)(2616005)(24736004)(6666004)(108616005)(336012)(26005)(7636003)(86362001)(5406001)(36756003)(6220400001)(103166001);DIR:INB;
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR01MB4637
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: HK3PEPF0000021C.apcprd03.prod.outlook.com
+X-MS-Exchange-Transport-CrossTenantHeadersPromoted: HK3PEPF0000021C.apcprd03.prod.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+ 4c23c695-a2c3-47af-9e6a-08dc170631c8
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?MIrcMbS9I9CHSuQbMadEJ+UmgDPCyQk3tyNGna4ZLKR0HbhCGoFhQRNe3q5d?=
+ =?us-ascii?Q?Imf10c183TNzBopv+p1VxJ/jWNwIZvZylNw4aPVM9XM9CuBCYGTQ5nHimojG?=
+ =?us-ascii?Q?NflMPxq6S0iGNPWfQPvk+YW/CEriy0mNRKfPjJ3jzhhTEYiisbmmPibXVTPh?=
+ =?us-ascii?Q?xr9cJTWHAi+dZl7GVFyrwcNfUlYDHhg5T3YkEw+KiTtg99tz/Yg376MO2Ybk?=
+ =?us-ascii?Q?V9QqShYYOtGSuC/2G36SmZIqAH5Hn7xb1RZ8O4CsaoqIne/cfti99v+p6RCE?=
+ =?us-ascii?Q?TptgUqsA84UJ9j7vCX3AX6ykcrK59aSybTed9W04nD5UzWu5iEy2Sv2kiAZ+?=
+ =?us-ascii?Q?C5XPfthscbJFYYwONb/8pyHIAIHXsBs0ujm1Z9Qe62DpRWf6jYe1NFmXqHk8?=
+ =?us-ascii?Q?QK1L+t4dECHGp85jB9Z5946RQ+18HAtyhUHhKhpgoe1C6hg6S6r8D8/J9xzT?=
+ =?us-ascii?Q?7VrRy6upS8yLOdK4ea+xinewZF6FNudjGzC88En9g/fwAEycORjJalodza60?=
+ =?us-ascii?Q?IxZg9wWch7i8rqj7z+as+yHLs1NWb9GRc5ZcjWMMQKeTfHdTlsBh8OfKPhHY?=
+ =?us-ascii?Q?ygZ6dhxrZ172EShWZ023j6+6HFG33q/8Jzny6iaRONRhRu/gvoWMPdJtnjuM?=
+ =?us-ascii?Q?4VCT+yqncN1SQ9Ncoj9ayRhqLEFjkEU5OOeuz4PxVhhDbL2q5ECvG89bduQ4?=
+ =?us-ascii?Q?Acp1c1jZkDODH3ng+aAGlNh91aA7nZQLuUYu1Qbm79j4DqaZbpKGKOWxJgHD?=
+ =?us-ascii?Q?hoXftm2K4iK8/jZUneNZQ9sesvpo53CD1rSqDcp9K+h7e0RCx55ScH/YdObF?=
+ =?us-ascii?Q?zwVav5L8YfIMAv55sx6/Hwi9iqSJkInkpjP6ikOVD5nRcpyxeLy+sdv8q71r?=
+ =?us-ascii?Q?DfkYAGah5eoOCsiab0nEsprzKDiuALrYPCEiyugZ4vAIvcs89tBb3cKZz7Dw?=
+ =?us-ascii?Q?oCpiIWOdRfqHmDyDCf8M74armNfpbfYhQnOyxjnqNMHmwrRkkVzMJQkEibkv?=
+ =?us-ascii?Q?+g2Pp1Y1aS4Syj2Qf2JUduXr9BK+tkvYK9VQLl7eVxRCQB/wpwx+wAH1gQQO?=
+ =?us-ascii?Q?vzHfK0dYjCE6dTbYbDg34wrjyNk/EBFxJ3mQ4vPt91ro5kiSm92KI3z9hh1N?=
+ =?us-ascii?Q?wUHOrj0KrEWw7fzG8XVk6PFJsRgOPLipQLt5v114HL2gMf1hKHyccYIL2JVs?=
+ =?us-ascii?Q?vbNWI/aY7gAuWmq2Y1KO76GU8xfA+nZhs7xVEOpICVUh/kKp+5OINFULfNtO?=
+ =?us-ascii?Q?ZvIOOOHqEGd7Ic3lmAxoP3wamWWSXpyfSGwlBbhoegjn/t+EfQ2mvfJYK+UM?=
+ =?us-ascii?Q?hK9z1k34GWnj4yUYR5qvDBZQBrTwpfjnboGICTPW2jpblY+nsDPBm0obH/qd?=
+ =?us-ascii?Q?ZEHf5hkTFO21yYZttCwUm5i8idYUWfOg/t2jdmpIAET4BSZDOOg+FY79Y8pC?=
+ =?us-ascii?Q?iV1quCFGkMScKQVAt0YDCBJjBabdnGt8w3UBeAuGbYEOgYZzf1Pj3nlptoXq?=
+ =?us-ascii?Q?jVSRhdvht5ISUZCoWhEwv0Xs00EGcJzzhVjAvnaE10dVUoGvSNjl//EwD8DN?=
+ =?us-ascii?Q?x9tO44PbD6g3u8tNGKv1uUpU6ppwhETZzNK6HAFTBuzM+YvUifNP9subMDPF?=
+ =?us-ascii?Q?oK4XFZci8egbBA2ON2wgw58b0JQLM7guJ76ybCkZAClQmggqmhxIYDWH7em6?=
+ =?us-ascii?Q?GHwO2cy2FSw1T9Iq5yHSiaVEFK1PRPNHlfeLDAkXqRrcSJ8gV0iAfWjOcGc9?=
+ =?us-ascii?Q?eylYTMYLFFZ4WnzbBjDpkokOHzw01ErgSVm4MSMGw14b+W3WrOyJyBoVuOSR?=
+ =?us-ascii?Q?A5YiUcdZRAbiePJDh1N3VLu6jmhP5NeJ8+iaPS7IuNPqbD5gbS4saig+s12A?=
+ =?us-ascii?Q?7pYtwATzqZbZcYIp09YdJvF0Xoz6Et3V/mF6o4OK6TMu5jGQTzVB/vWmrtzd?=
+ =?us-ascii?Q?p0od7w3ZOCSJ2TfnWOwAgTIaV6ruM5Doutn2HD7krawZZ+VVO3n5kLutAmx3?=
+ =?us-ascii?Q?Lr/gBLQKwg/Z0p+nTwSwnyxQBh1gulTLkmV4ehzbbosNZVY87x0/KvxPWDrI?=
+ =?us-ascii?Q?isD0Bw0sLtv+MW2yUzVi5xRjiKTIIXXP4vaVJWmOfwhQznXWTBaJiKUGeU5H?=
+ =?us-ascii?Q?d4TtgbUQ0pN0ifyYhRsw5c4qybwfXEhjuM48gfA0AuYNZCHYtt3hAT15u3sT?=
+ =?us-ascii?Q?kzWW8EX6iLbBqsz3cU1borm35SHIigWANK67z2OWs/L459DfBWy6Mfp4t/M?=
+ =?us-ascii?Q?=3D?=
+X-Forefront-Antispam-Report:
+ CIP:104.47.110.41;CTRY:JP;LANG:id;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:APC01-TYZ-obe.outbound.protection.outlook.com;PTR:mail-tyzapc01lp2041.outbound.protection.outlook.com;CAT:NONE;SFS:(13230031)(230273577357003)(230922051799003)(230173577357003)(451199024)(26005)(6862004)(1096003)(58800400005)(956004)(336012)(2616005)(5406001)(6666004)(24736004)(108616005)(4744005)(86362001)(36756003)(7636003)(5660300002)(6220400001)(103166001);DIR:INB;
+X-OriginatorOrg: corp.brilife.co.id
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jan 2024 02:44:18.5183
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f9abb284-bd07-4a0e-2e8a-08dc170633ea
+X-MS-Exchange-CrossTenant-Id: 557976a8-dd89-479a-bf82-ec18df17e878
+X-MS-Exchange-CrossTenant-AuthSource:
+ HK3PEPF0000021C.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR01MB5136
+
+CAUTION: Jangan klik link atau membuka lampiran terkecuali anda mengenali p=
+engirim dan mengetahui bahwa isi dari email tersebut aman. Do not click lin=
+ks or open attachments unless you recognize the sender and know the content=
+ is safe.
+
+CAUTION: Jangan klik link atau membuka lampiran terkecuali anda mengenali p=
+engirim dan mengetahui bahwa isi dari email tersebut aman. Do not click lin=
+ks or open attachments unless you recognize the sender and know the content=
+ is safe.
+
+CAUTION: Jangan klik link atau membuka lampiran terkecuali anda mengenali p=
+engirim dan mengetahui bahwa isi dari email tersebut aman. Do not click lin=
+ks or open attachments unless you recognize the sender and know the content=
+ is safe.

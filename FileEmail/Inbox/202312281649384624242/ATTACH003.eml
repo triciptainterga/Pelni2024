@@ -1,0 +1,46 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1703756973; x=1704361773; dara=google.com;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=K+anLYW7HjeKG6+rW9BQ4QJm7mfJkv45hA9eG6kX1ew=;
+        b=SuW6krYd/N4s41HuPggOOaIHGA5Ejue1VfsaGydU2YXlVvk3hEuDPJm7Cf5FCmlugO
+         G91v54AsomasHi1nuDPEDXZ74JG1AUF8Luo0pwDtDWGSu0950APmKCuAbADzzYs8WgwQ
+         vvtWJNibo/0fDrY9JCHavGmc5VM8gvYtA1y9t5oHc3ohLSfLEGRPXQLUBICu/q1fBVfI
+         gg4r+i1bIBd9VyrYcZlkHH7rawx375Xok94S8VM963z8JgL7Oh+cWbYzhjqtiZpSxJhB
+         OfsXchHCssVAJPAHAcxnRe4ZrfeBq0L7m9xxDvWijrfjMB/dTFpzpcANhiGJrzTXHkES
+         MYTA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1703756973; x=1704361773;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=K+anLYW7HjeKG6+rW9BQ4QJm7mfJkv45hA9eG6kX1ew=;
+        b=uVFVrfe4OhZXgChK2+FjxeWSXgcki2BGQabe5nyUe+IQ80pS5Og+ELsaVI6Nsup4JU
+         kpvEHN/L9WVHwlKoEDPQUI64pYUQJfIvA+HpX/4QqvTzvUM3qXxZjPJlPS3slWyn2zek
+         Wki3wHrhDjgckOjVnJDwZ6/0QdK/H35ZGDPfeLBKM4OnMkthn2EbBgIZUTRbSbx2Tlnr
+         5DcPdz1VCQBN0mRtoUH/AoCX6n/WEuBf9kFb5y78NmA9eaxfkk978KUU7388uwu65kw/
+         lRCTVb7+DTA5iGkod69P/HXDkx8zdN715ldmvUeqFkE0I3FGNX4ORFawFUx1Zrt5r2rU
+         d0aA==
+X-Gm-Message-State: AOJu0YzqxFCgQzy5qoYuasDw8mwza6t1cZwWfRlY1/GQyCNYbq5kGB0y
+	KDtFtSlptgQtCtRqHr2DGXQw9xvTgljKV8N9bmfzdvYecbCG7NVF
+X-Google-Smtp-Source: AGHT+IEoqJbe3m6D30SB8GbGlQ4b0YMd1g705hy7NkWhTIBBJeuXPxon/TqJnqAgwaDlPKF0e4Xnfw==
+X-Received: by 2002:a17:90a:9d8b:b0:28c:1eff:ac4a with SMTP id k11-20020a17090a9d8b00b0028c1effac4amr4547056pjp.90.1703756973451;
+        Thu, 28 Dec 2023 01:49:33 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id fz21-20020a17090b025500b0028c512f8040sm8093380pjb.24.2023.12.28.01.49.32
+        for <antony_tmb00@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 Dec 2023 01:49:33 -0800 (PST)
+Message-ID: <67a7f3ce3e18c0d062692e8a06596f3b@cantas.co.id>
+From: ROATEX <care@cantas.co.id>
+To: <antony_tmb00@gmail.com>
+Subject: =?utf-8?B?UmVwbHlJRDpbUmVwbHlJRC0wMzIxMzY2NjZdUkUgOlJlcGx5?=
+	=?utf-8?B?SUQ6W1JlcGx5SUQtMDMyMTM2NjY2XVJFIDojMjAyMzEyMjgw?=
+	=?utf-8?B?MzIxMjgyNjEgIEVtYWlsIE5vdGlmaWNhdGlvbiBUaWNrZXQg?=
+	=?utf-8?B?Q2xvc2Vk?=
+Date: Thu, 28 Dec 2023 16:49:29 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="bb9bc972b54584b5ef4532a8000e6e70"
+
+----- Message truncated -----

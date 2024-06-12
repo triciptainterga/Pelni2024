@@ -1,0 +1,12 @@
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; care@cantas.co.id
+Arrival-Date: Sat, 10 Feb 2024 18:56:37 -0800 (PST)
+X-Original-Message-ID: <1a138722ede193d838458f8e05318493@cantas.co.id>
+
+Final-Recipient: rfc822; abielestaluhu14@gmail.com
+Action: failed
+Status: 4.2.2
+Diagnostic-Code: smtp; 452-4.2.2 The recipient's inbox is out of storage space. Please direct the
+ 452-4.2.2 recipient to
+ 452 4.2.2  https://support.google.com/mail/?p=OverQuotaTemp m6-20020a6b3f06000000b007bfd633c4cesor2647091ioa.2 - gsmtp
+Last-Attempt-Date: Tue, 13 Feb 2024 22:41:52 -0800 (PST)

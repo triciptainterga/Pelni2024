@@ -1,0 +1,106 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1704514758; x=1705119558; darn=corp.brilife.co.id;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Bx0GlGqu6iI1puJIobxdnrSEqgEUoHt7ABzKZ21ON0Y=;
+        b=bcjFvo/dild5FAILIyWsxo+IS9x/Zd//r3+EHKaYthz5qF2H1+oF+z5AWoojE2s9U4
+         z+qzyeoqzzBgyfW/4cuPGj3G6DkGPn1Kgnatci2ZKVftj5PxWtGCGkZMN+2BLn2bj3zo
+         SuPSKOagiGPLVWWc7BSzZaThxoRawQy3cBAo9FlVzjpoVlU9p4DLyHKVNSoRlv3Ul37E
+         Zr1g+CO2mF+50KQ3mHafLn/sP8Qrogo0ceCkZyr+kVYGPEMiOZvAExReqIvK8nHwA7m3
+         jvSNSf7f6GsUrrS0Dps+xK51DSefSy5ugwBvIXZFwgnCDHh6maqVsLn/q4tj1mcDNAvc
+         hOMQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704514758; x=1705119558;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Bx0GlGqu6iI1puJIobxdnrSEqgEUoHt7ABzKZ21ON0Y=;
+        b=AVwEzQ6igXsMTePDSfO80K66c6l+y8YVT86h2fD5WKbuF/oNs8S+OSA0tsqm8ZVuiP
+         T0BeBtzXgH3IQfy7BaowYiSbTjlV6juKwtqp6CC2vg4Ycr594nmFNF3N+bH1ybvfYhTs
+         sxNg572d/PA1rXEHlXewWH5wQ5oYuBWnTa+46gAlS8sZDcQVHt26SGcxHAXC5Zj6xfyf
+         6gYUIZuTgdHWXeeHSc/XaefFKY122tzptM337r9E/JwdyEv2UXr9x1P+BLLIvqNwmOWy
+         /IL1iZIjUfdC0Wq4j7mb8wSCEAD/UDnubYo22l4BasmYnvsMHOXMtSKmjVxjzf7uF/kQ
+         DUig==
+X-Gm-Message-State: AOJu0Yy/dby2O9+tVn23cyQ0bFRpI5Nn54rpF1QnJ9r8JMV6VIFPpT2t
+	icXFIzWiYWoCuc+5RlbRMzSQ2OME3UJbA3/Ais+3TllmfqEnk+jm
+X-Google-Smtp-Source: AGHT+IGkRJmSm2fJasR4/PyopmkQ/rHh4btFS5Q0MrabATUFeQB7me4d24N1p9/WnVHRR+bJFkPR8A==
+X-Received: by 2002:a05:6808:2389:b0:3bc:2feb:2737 with SMTP id bp9-20020a056808238900b003bc2feb2737mr665098oib.51.1704514758530;
+        Fri, 05 Jan 2024 20:19:18 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id b9-20020aa78ec9000000b006d99cbe22f5sm2127887pfr.217.2024.01.05.20.19.17
+        for <postmaster@corp.brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jan 2024 20:19:18 -0800 (PST)
+Message-ID: <55a141d2b5f3de0cd11b526a09623553@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <postmaster@corp.brilife.co.id>
+Subject: #20240106111909925  Email Notification Ticket Closed
+Date: Sat, 06 Jan 2024 11:19:14 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="85aa95190689142cc50fa457000ad0b0"
+
+This is a multi-part message in MIME format.
+
+--85aa95190689142cc50fa457000ad0b0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Kepada Yth,
+Bapak/Ibu postmaster
+
+Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa =
+berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu=2E
+
+
+Bersama ini kami sampaikan nomor Tiket Bapak/Ibu postmaster dengan =
+20240106111909925 telah berhasil diselesaikan=2E
+
+Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu =
+mohon menghubungi langsung ke layanan Customer Care kami, dengan senang =
+hati kami akan membantu anda=2E
+
+Atas perhatian dan kerjasamanya, kami ucapkan terima kasih=2E
+
+Salam,
+
+CUSTOMER CARE
+
+DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel=2E
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov=2E
+DKI Jakarta
+
+--85aa95190689142cc50fa457000ad0b0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p>Kepada Yth,<br />
+Bapak/Ibu postmaster</p>
+
+<p>Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa =
+berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu.</p>
+
+<p><br />
+Bersama ini kami sampaikan nomor Tiket Bapak/Ibu postmaster dengan =
+20240106111909925 telah berhasil diselesaikan.</p>
+
+<p>Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu =
+mohon menghubungi langsung ke layanan Customer Care kami, dengan senang =
+hati kami akan membantu anda.</p>
+
+<p>Atas perhatian dan kerjasamanya, kami ucapkan terima kasih.</p>
+
+<p>Salam,</p>
+
+<p><strong>CUSTOMER CARE</strong></p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+
+--85aa95190689142cc50fa457000ad0b0--
+

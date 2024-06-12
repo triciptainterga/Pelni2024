@@ -1,0 +1,11 @@
+Reporting-MTA: dns;KL1PR01MB5136.apcprd01.prod.exchangelabs.com
+Received-From-MTA: dns;APC01-TYZ-obe.outbound.protection.outlook.com
+Arrival-Date: Wed, 17 Jan 2024 02:44:20 +0000
+
+Original-Recipient: rfc822;guntur.santosa@brilife.co.id
+Final-Recipient: rfc822;guntur.santosa@brilife.co.id
+Action: failed
+Status: 5.4.14
+Diagnostic-Code: smtp;554 5.4.14 Hop count exceeded - possible mail loop ATTR34 [HK2PEPF00006FAF.apcprd02.prod.outlook.com 2024-01-17T02:44:23.804Z 08DC12288186B238]
+Remote-MTA: dns;HK2PEPF00006FAF.mail.protection.outlook.com
+

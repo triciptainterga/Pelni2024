@@ -1,0 +1,90 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1704771605; x=1705376405; darn=corp.brilife.co.id;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=zTBL7zlgWHDzi8mmX+w71CS2EY0wV+OeL2PN48SOX0A=;
+        b=Cjl9EFHS1ATc9qPZbm/jZB4+njzGsXsCVbGT0cuO3iGTXhAfSvPPuWz9ZNKhMMP44L
+         1XiNAj3Cm8fa9Gn88o5KvnU/BHbAGxMe8FxxkvDALx+di4lXh3gBns4quyM43AmTgk4q
+         eOkdP0/iFZbI7eCeQMNNnmVQYmi27LJ0DhdnEmu0GTPeotg+M34aH16oJRi9cO1nBgud
+         440wEcgA6hivotyFXFF/beg107IvS+xSiFDI7nZjObdNnrOBg6xcSGM1aNlToeyy73ZN
+         IyXmF6bdwzkTiXwRMWdyk8AXIi6kzsRSE9/mHi8HUc7HVC5SvhR/uEUg75KUXd+F8lil
+         AKwA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704771605; x=1705376405;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=zTBL7zlgWHDzi8mmX+w71CS2EY0wV+OeL2PN48SOX0A=;
+        b=B6dGIGfecdqyv2pP0FJ173yXz4eDjw0Kt2b5bKHAW00QKqvuxDZqexZUeY3akn1vgL
+         FerRuERoGPJSdVoqo0hR0dKGRAYHtd4iQeVFEwy04a8QoSqrLe0SIKWwnD2xWUMgtTQJ
+         nCMiSnApFJ2wzOrkzssw51dLA0QYV26GzMnzOspSBKVn5/seZbeMxSfWahSIckVvNY4v
+         CQf9szCNxwgMJW/HO5QQpOUGq6v/4r2LPJhQZMBJrbu1DQ6Lt/o4JqfS/5yecVSNiR7f
+         IKg3/kJjVT5IRcP2YMFMEX4NVuyr0GwRJBpQ0aJcUkCnNSaDM00lTMrYvzP+EMSPM1pf
+         sBog==
+X-Gm-Message-State: AOJu0YzVuOvl+12tkAe3mL5rjKM1D0ox7dsK90Z4V1Ntd7dKF+Xa5lz4
+	tIyv9Kh5izXLeHi3VNbEOicn4/GSLXyxPX7QnmAkq0uYmWU=
+X-Google-Smtp-Source: AGHT+IFeOb7/T4eSUFsmS9Tjn503UlvfMFCX7IMxJ7xVYBN5G4VbtbHvZ3ApM/d97nfMqemWansH9A==
+X-Received: by 2002:a05:6a20:9151:b0:199:c111:89be with SMTP id x17-20020a056a20915100b00199c11189bemr1533190pzc.18.1704771604706;
+        Mon, 08 Jan 2024 19:40:04 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id jh7-20020a170903328700b001d3e3a86dccsm633999plb.84.2024.01.08.19.40.03
+        for <postmaster@corp.brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 08 Jan 2024 19:40:04 -0800 (PST)
+Message-ID: <dcf36607aa1ff2fee342777a1cbfad26@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <postmaster@corp.brilife.co.id>
+Subject: [ID Laporan 103953029] Automatic Reply : Undeliverable:
+Date: Tue, 09 Jan 2024 10:40:00 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="ee1bd4d14faea86debf7578c000e5d90"
+
+This is a multi-part message in MIME format.
+
+--ee1bd4d14faea86debf7578c000e5d90
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Bapak/Ibu Yth,
+
+Terima kasih telah mengirimkan email kepada kami=2E
+
+Kami akan segera menindaklanjuti email Anda hari ini atau pada hari kerja =
+berikutnya.=20
+Terima kasih dan sehat selalu=2E
+
+Salam,
+
+Cantas Contact Centre
+
+DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel=2E
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov=2E
+DKI Jakarta
+
+--ee1bd4d14faea86debf7578c000e5d90
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p>Bapak/Ibu Yth,</p>
+
+<p>Terima kasih telah mengirimkan email kepada kami.</p>
+
+<p>Kami akan segera menindaklanjuti email Anda hari ini atau pada hari =
+kerja berikutnya.&nbsp;<br />
+Terima kasih dan sehat selalu.</p>
+
+<p>Salam,</p>
+
+<p><strong>Cantas&nbsp;Contact&nbsp;Centre</strong></p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+
+--ee1bd4d14faea86debf7578c000e5d90--
+

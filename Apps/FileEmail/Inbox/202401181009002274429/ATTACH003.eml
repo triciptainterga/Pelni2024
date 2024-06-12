@@ -1,0 +1,116 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1705547329; x=1706152129; darn=corp.brilife.co.id;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=ifF8kh3sCnLpZTgGzSGeiPu4ZsNRQNnMfZi12QaT6fk=;
+        b=uJJDRg4g7XD8ANbvGJA5y0NKD/5vorgfXy+P03lCoMtM/XKDQCC/6b+R4c0asgE1bN
+         PfjH6QNqLsdrbCqCSuKG4eAqsMGs5S4nH8kIEpd0iT/5WxtwkoGP/ZNcrEyXdGDgzCUB
+         6mLUXASoL4XfErg1r5dRTz0do3TiCiW+BiSfrUQMPDjoaBE6SXSveMkmGjch7KPC5tKk
+         tC6nQHPoli9ybpLaGdI5OuwS5UsdItHXW/h7O9U0EyBZsKeTi64TsqFGJjBVvtbV2I2N
+         29kJjKxy1wqX2IyAx9Zb4M/3+Q5wvfJulqRH0iXZII/PxqyxIBKvz6zXMhIHSlcBhbl/
+         0DVA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705547329; x=1706152129;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=ifF8kh3sCnLpZTgGzSGeiPu4ZsNRQNnMfZi12QaT6fk=;
+        b=vhYn9Wjb+0ld+g5AOkYiLcSb1CvXOWVa3zlg3+29lM0KDfxLCBMo8cpGGzOm1V+vV9
+         ImzfZmWtUITpNE98DcKuJxK/iXneF3gAnryHsD1ynQNLz2ki2UzLZwTL62RukR0bcNaJ
+         mvwa1tiMhtdlPDP09XGc2cgClLw4z7XkR8F+GWLMeQxxIzQ7cSlathIUI4AdLbq+bXgc
+         FDaag6u2C7aEHa1/+MxpEkhvdHLn+NdfvKieYXYIdy+4JeoS7V2hXXTuwLvV9XP7UbLF
+         nmf9nXTu46e/v4Oy+LpA+hBNJDNVcaq7UjGOweOk22IKw1NIXGVkK0UW2EkjLVGxpbO0
+         JapA==
+X-Gm-Message-State: AOJu0Yz2BWP+w0/OOH3CyhAJM6cGtvLTR1sU70+YtO6MwHc6o0Mwwj4x
+	CLXwJLnp0pYmp8ibu6Lz6M9BuwvNRYztZ3ZnWKO+bVRCtri4/XwzebfFZE23cMvyRs/knjaAwLJ
+	j
+X-Google-Smtp-Source: AGHT+IGydhgxBVcPYu91M/8FAZAtnr6xXnZ41DcjcKEtDadxwdvzRRGSctEVv8N8igibmDQDEPZd+w==
+X-Received: by 2002:a05:6359:6c01:b0:174:f1d9:563a with SMTP id tc1-20020a0563596c0100b00174f1d9563amr215017rwb.47.1705547329153;
+        Wed, 17 Jan 2024 19:08:49 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id sn8-20020a17090b2e8800b0028afdb88d08sm456797pjb.23.2024.01.17.19.08.48
+        for <postmaster@corp.brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jan 2024 19:08:48 -0800 (PST)
+Message-ID: <7620b355c1af868f1f4c06cd1823c241@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <postmaster@corp.brilife.co.id>
+Subject: [ID Laporan 100838852] Automatic Reply : Undeliverable:
+Date: Thu, 18 Jan 2024 10:08:45 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="0db1fb8cebf2dd4cb70724b3000dcd10"
+
+This is a multi-part message in MIME format.
+
+--0db1fb8cebf2dd4cb70724b3000dcd10
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Bapak/Ibu Yth,
+
+Terima kasih telah mengirimkan email kepada kami=2E
+
+Kami akan segera menindaklanjuti email Anda hari ini atau paling lambat =
+esok hari=2E
+Terima kasih dan sehat selalu=2E
+
+=20
+
+Salam,Cantas Contact Center
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+Dear Sir/Madam,
+
+Thank you for sending us your email=2E
+
+We will follow up your email today or latest tomorrow=2E
+Thank you and stay healthy.
+
+ 
+Regards,Cantas Contact Center
+
+--0db1fb8cebf2dd4cb70724b3000dcd10
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p>Bapak/Ibu Yth,</p>
+
+<p>Terima kasih telah mengirimkan email kepada kami.</p>
+
+<p>Kami akan segera menindaklanjuti email Anda hari ini atau paling lambat =
+esok hari.<br />
+Terima kasih dan sehat selalu.</p>
+
+<p>&nbsp;</p>
+
+<p><p>Salam,</p><p></p><p><strong>Cantas Contact Center</strong></p><img =
+src=3D"https://crm.uidesk.id/roatex/apps/Signature/cantas.jpg" =
+alt=3D"logo" width=3D"160px"></p></p>
+
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D</p>
+
+<p>Dear Sir/Madam,</p>
+
+<p>Thank you for sending us your email.</p>
+
+<p>We will follow up your email today or latest tomorrow.<br />
+Thank you and stay healthy.</p>
+
+<p>&nbsp;</p>
+</br><p>Regards,</p><p></p><p><strong>Cantas Contact =
+Center</strong></p><img =
+src=3D"https://crm.uidesk.id/roatex/apps/Signature/cantas.jpg" =
+alt=3D"logo" width=3D"160px"></p>
+
+--0db1fb8cebf2dd4cb70724b3000dcd10--
+

@@ -1,0 +1,148 @@
+Received: from SI2PR01MB4132.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:1a7::10) by TYZPR01MB4329.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:1c2::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.24; Thu, 18 Jan
+ 2024 00:52:26 +0000
+Received: from TYSPR01MB5638.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:417::13) by SI2PR01MB4132.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:1a7::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23; Wed, 17 Jan
+ 2024 13:45:35 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=B4R5fyL4iJDBGtAerDayiPSaxyqobedQcTb7shgoGtIxgTOzMJY4h7YnJtRMC2l6c3Q4jbNgsvgkv8Vxx2DhJ+DF0p/D0i1JrsWHYHXnMpiil50r0N50igHzlDiX7+haD2LjIGz/LFrgm98pGsOc6yicAlZY/q7+YkR+6Y61BlEf6uE4ZCfO+2TIv6qlsAzMwASYP1cliR8SLQWErUKmk7mmS3ekLGMo03T5c7T5//n4SPR0NnqVlhMdywrx+TLFzuWDc+JlwIVp6O554z9L8iyWYAVdd3ud03RKUonmNaiw12DTJZpmddSi2ohaGJjil0pjtLVquPryWHw52+lfQg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2JCqaM2bVWd9oAnc53tVPrz4qPdLaskHPR+b6OyvJOM=;
+ b=bsmgXlonEy+0X41OAie3pKUi/EeAxHTJyvAvtTxInUgTIotcJ8/DnlqbUT2k2NKmTkr9ONhuvxCx8rPZad7bmxt55jk9G7q3tR8jd6KVPqp7ym7n4IJoNSApGqc1E4emSupnZHHSwPi+n17cXBbeg0THT0mkh9Bnl8amrXkgsVDDTSTtkIMKxJVVMRYJMha+QmLSKkqvegsYmmzG2S/ZFI5roe9+4YEcwPbvxAm605hGQvhmwsXAsEWi9welT/E5V+trZULwaahhc8lOJfCqSgFA/gJaV1m9dl8iLlcB43yjHYBX+kGAgB+BmIIjPuUXj4wBBpRRGP4g534IH8KeCg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none (sender ip is
+ 209.85.214.180) smtp.rcpttodomain=brilife.co.id smtp.mailfrom=cantas.co.id;
+ dmarc=none action=none header.from=cantas.co.id; dkim=pass (signature was
+ verified) header.d=cantas-co-id.20230601.gappssmtp.com; arc=none (0)
+Received: from PS1PR03CA0005.apcprd03.prod.outlook.com (2603:1096:803:3d::17)
+ by TYSPR01MB5638.apcprd01.prod.exchangelabs.com (2603:1096:400:417::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7181.23; Wed, 17 Jan
+ 2024 02:44:07 +0000
+Received: from HK3PEPF0000021F.apcprd03.prod.outlook.com
+ (2603:1096:803:3d:cafe::a4) by PS1PR03CA0005.outlook.office365.com
+ (2603:1096:803:3d::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.23 via Frontend
+ Transport; Wed, 17 Jan 2024 02:44:06 +0000
+Authentication-Results: spf=none (sender IP is 209.85.214.180)
+ smtp.mailfrom=cantas.co.id; dkim=pass (signature was verified)
+ header.d=cantas-co-id.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=cantas.co.id;compauth=pass reason=106
+Received-SPF: None (protection.outlook.com: cantas.co.id does not designate
+ permitted sender hosts)
+Received: from mail-pl1-f180.google.com (209.85.214.180) by
+ HK3PEPF0000021F.mail.protection.outlook.com (10.167.8.41) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7181.14 via Frontend Transport; Wed, 17 Jan 2024 02:44:06 +0000
+Received: by mail-pl1-f180.google.com with SMTP id d9443c01a7336-1d4a980fdedso93446235ad.1
+        for <TestEmail@brilife.co.id>; Tue, 16 Jan 2024 18:44:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1705459444; x=1706064244; darn=brilife.co.id;
+        h=content-transfer-encoding:mime-version:date:subject:to:from
+         :message-id:from:to:cc:subject:date:message-id:reply-to;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=CpuZKBeoAZBxqtIdDgTdNaypryF15I2qs7QHFEnxuT8Oy9mH7lP6sGq+JHdybJXa+i
+         4Oes3FvhxEbdYX0DDpgIVzn4qds41yx3ayBRB21VvuRL+t7muW3tQDHSO0cRPaEnJHWs
+         UkzrTt2oLa7l9ypsizf0g3pB+8VPNsAhgTiTfEvXqzvo/Kz+xXfrp133bv0PG6XE16HX
+         3s6Mb9itSsJoDlQuLfU8J/imYhg6c1g8GiA4zBICNZl4dHKvSwCwhKEPBwIMA86QS3oU
+         PvEeYoxUzvICDt+snA6siwL14jUZK9rrBblsPIvjS9n1F8VYtdk2uFo46a11jGsMrGf3
+         9rHg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705459444; x=1706064244;
+        h=content-transfer-encoding:mime-version:date:subject:to:from
+         :message-id:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=Pk2ckVl5aM8ams6zD6USEBizNsw6pPize/ks+lMGNDfb8U6H16i89SoQdR2XDDxF1W
+         aTuBYycyuP/6qpA7LpC3n4lL3JHD1teFV5zXfvnlHJ/jc6jAkx+OV/YKl2j2SBvLNhoK
+         enPxp2oxrQ9yBe5mtHkKG+O76pDLRM2YmlBUruT5+wqRtxniBfmxBWlQ/LJnJ0ZKiwTn
+         tOw6HIJhACjkNXa7ew+hD9piTxxHwBPiq+kjnCrqjO+1tLnENASY2auCUOyJTRHLqLHt
+         HN/bE0fSo1JZCiEdSIvle0oNQv2oEq9A3LmhbMecgiPZgB5bTqVT4mqCPcjfuJIL2eFj
+         1D2Q==
+X-Gm-Message-State: AOJu0YxAxnmgkOMbBONcZvCCEcpCV01l3Z1tBDCCRCZ3QFOUpnfxpjeV
+	FkwLH0Q+6nn0elz3kUgZxY7uozoWwwZ/viUvYwoHbZep2qI=
+X-Google-Smtp-Source: AGHT+IHC0i+/or9G5Kr/NPVQBmfJSybFMLWNLke3uVE1yvlfoNK3fIbKa97U8+V+nwi2LDkc5Rp8RA==
+X-Received: by 2002:a17:902:76c2:b0:1d5:7a46:921a with SMTP id j2-20020a17090276c200b001d57a46921amr7988426plt.31.1705459444563;
+        Tue, 16 Jan 2024 18:44:04 -0800 (PST)
+Return-Path: care@cantas.co.id
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id y22-20020a1709027c9600b001d5d73f938asm3013129pll.20.2024.01.16.18.44.03
+        for <TestEmail@brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 16 Jan 2024 18:44:04 -0800 (PST)
+Message-ID: <c68c4f6932e95c5b8960297e11ce198e@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <TestEmail@brilife.co.id>
+Subject:
+Date: Wed, 17 Jan 2024 09:44:00 +0700
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 557976a8-dd89-479a-bf82-ec18df17e878:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ HK3PEPF0000021F:EE_|TYSPR01MB5638:EE_|SI2PR01MB4132:EE_|TYZPR01MB4329:EE_
+X-MS-Office365-Filtering-Correlation-Id: 71a5052d-56a7-46af-c003-08dc17062c92
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?MW5nM21CUDJTaXpFUUYxNE0vSHhLdHlpdVZaOG5BcWljZlVrNlZEemU5V2VX?=
+ =?utf-8?B?S1BwalhDd2JUcTdhNlhEZENiK05RZWxudWhEZjlmcjBLL0NpYmhFRStGYXJH?=
+ =?utf-8?B?WnJ4aS9wRDhhQXJsbVpoSk9lc1E0VTQzTUNIY1FLVzJkcDdkS20zR0dpbTRh?=
+ =?utf-8?B?TCtSOHdPVTdmcC9zK1RkckhXNUUxWGV3UERvTHFVZklLWHV6TmFTdTF2R3Zu?=
+ =?utf-8?B?VWp1M1UvZmlMQ29rbjlCWU5OU05qa1B6R1l6eExwK1BJcHBkcUVuK3lXaXpI?=
+ =?utf-8?B?SlFwNkVLSnRpdkYzZFdleFJGYUNzSVRIWnBOMzBtNkdzMnBNNWUzNEE1TEk1?=
+ =?utf-8?B?aGpYeHVwN3oxdGFZd2IxOUFZWVdSOC9oOTE3ckJIRDl0eHpuNldoMy9MMHdS?=
+ =?utf-8?B?STZBdXc5SENFTnZFMmFIUEgzVk9xS0NpdXkzVGV2enpYaGR2REVBZWQvSHdR?=
+ =?utf-8?B?cGhZRjEwMjFXampqQmc3Q1dFUTVLcEZTYkMxbHlJUU9FMGFJZ0FxZGRzZUxC?=
+ =?utf-8?B?VzJ2UnRqRHJqYlJFMVQzL2UwOWhzWWhrRFNzL2ZkU1BrQnY0eXg0MUdueUIy?=
+ =?utf-8?B?ZGRDK0owejlOd2hmUkkrazh3V0krNTcvV2RVMEltRUxWRkZyc2E4S0JFWXRk?=
+ =?utf-8?B?WjRCQXZrMU9OZXVoamNXSUxDMllKeWY4VWpDYitOdnpzSXlrTHhpbnUxSkRh?=
+ =?utf-8?B?cU1oTmpPWTVPNHE3VUY3TVB0WWZRS0F0ZFVUbk5SWGlQQ081a2xHc2llYVY0?=
+ =?utf-8?B?bjZYNTcwOGh1VFRyTUdha0hveWxoeGR0VWx3RUh6czN1d1dFL1BaQ2NPeHdp?=
+ =?utf-8?B?NnYxRnc2eHBmRFErUU8rQXVXVm5rbnFQdWErb2JiNHZHSHZGRlAwK3IrVk1R?=
+ =?utf-8?B?cktxN045ODJUM3ozSVBVRmRGbXZHRGFPSHNJQ0ZBb2FreEdKQjFFMDdZNWJa?=
+ =?utf-8?B?MUlwZlZ5QkhkQU8xMWl6OVNSRmtMRnVxbWt0MENpa3QyOUgwdzNwS1g4RE1K?=
+ =?utf-8?B?dzk4RWtPUFlOL01Bang2Q0J0WDVyM2RpS3hWakdYREM2OXVPbzF1bE93U1la?=
+ =?utf-8?B?N2dwLzFLZ25aNG5JVGsvemxHOWlPVHlQcm5sRlVDZ0p2MlhvRmpaV3U3L0FW?=
+ =?utf-8?B?TnlyS1lVTjFQaE5qSFBaUEJreDUrZ0pXTDQ3R243RUhXZkExYjJYdFdFRGlT?=
+ =?utf-8?B?M21zUG9MRldiYW41eThXTkdxdGM2WTJ3U2tKTDFBMENndmcxMCsrTmNCVFhj?=
+ =?utf-8?B?ZVA5UFhlM1JRNXZPNlUzYUJKbGFyemY2UmNQYVhvYzkzTHc0VDA3QmtSbFlJ?=
+ =?utf-8?B?dVoyTGt6OVAwWXJjaVViUXBnTXJkTTdBMVllUGV1WXJHSitub3J6UjdIa21h?=
+ =?utf-8?B?TmNvaThoNklaTlJjNzdSNkp1K1gzUmhCZitJUGtKcGlteFhxT3REcWxpUnpO?=
+ =?utf-8?B?RU5JL01HSmRQbTJaaU5nbW4rR3B2bWc5YlRTSDQvTWxwdlJNM3A3OUgzMjhJ?=
+ =?utf-8?B?ZlBJTHUwSVFwNHZFVWtFcERHSVYxZ2F3Sk1mWEpkcEp3ODVHMy9QVEM2amJX?=
+ =?utf-8?B?TEhONnFMWUxJTGFRYlIxcHcybjBJQWNvai8zM3o0Qi9TWkNoWTVKUDN0RitY?=
+ =?utf-8?B?RWxXaVJRWnhFTmZyK0tqTWp0NVFDWjdlOGt5Rm9GSVl2N0ZyOVFkYnNFME1k?=
+ =?utf-8?B?dW1zMlVGeWtxbWdKWk9DTEhkYisyeWlqczJtTzc3WVBRQ2FIMUpQaWMvV3Rv?=
+ =?utf-8?B?NXBHK3JoQUZQQVVrbTJGQWJ5UlF3Y2o4Yzljb0xTRHFtK296cUNubTJoVkZV?=
+ =?utf-8?B?V0VMSXNuUWlsTG1HUzVxanVDU2dxaFVSY3h3TGhHbElnZXJsSVk5c2p0WXhQ?=
+ =?utf-8?B?Sk4vSk5oK01QUGpFUnBLOGR6RDJTb2RZUEdwU3Fha1hsKzA4YWYvWUY3SWpG?=
+ =?utf-8?B?dVN0SFAzajlXcVhMZHdCU2hWcGs0ZWZYQm9Eam5vRWNVaGpodmtNUkpUV3gy?=
+ =?utf-8?B?Rk5rOU9oV1VSb0RpTVNGeTZ0aGxiWENnQmZHNkF5N3RiTGZPNEw5VVBJYWZE?=
+ =?utf-8?B?Z2pYL2dBdmthSWhRbW5lblcvaHJiSEd3K1crNTJMbDE2SnN0ektQQ1Zqcmx1?=
+ =?utf-8?B?b3N6WmNjQTh5MTJBeFNCcVFKcFgzbTFnQXdrQjRNUFZLYU1jTHpBcU92cEJI?=
+ =?utf-8?B?dmc9PQ==?=
+X-Forefront-Antispam-Report: CIP:209.85.214.180;CTRY:US;LANG:ms;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-pl1-f180.google.com;PTR:mail-pl1-f180.google.com;CAT:NONE;SFS:(13230031)(230173577357003)(230273577357003)(230922051799003)(451199024)(356005)(558084003)(86362001)(7596003)(7636003)(2616005)(26005)(336012)(956004)(108616005)(6666004)(24736004)(5660300002)(1096003)(6916009)(36756003)(5406001)(6220400001)(103166001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Jan 2024 02:44:06.4512
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 71a5052d-56a7-46af-c003-08dc17062c92
+X-MS-Exchange-CrossTenant-Id: 557976a8-dd89-479a-bf82-ec18df17e878
+X-MS-Exchange-CrossTenant-AuthSource: HK3PEPF0000021F.apcprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TYSPR01MB5638
+X-OrganizationHeadersPreserved: TYSPR01MB5638.apcprd01.prod.exchangelabs.com
+X-OriginatorOrg: corp.brilife.co.id
+X-CrossPremisesHeadersFilteredByDsnGenerator:
+ TYZPR01MB4329.apcprd01.prod.exchangelabs.com
+
+CAUTION: Jangan klik link atau membuka lampiran terkecuali anda mengenali p=
+engirim dan mengetahui bahwa isi dari email tersebut aman. Do not click lin=
+ks or open attachments unless you recognize the sender and know the content=
+ is safe.

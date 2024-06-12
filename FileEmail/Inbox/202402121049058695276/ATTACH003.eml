@@ -1,0 +1,99 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1707709741; x=1708314541; dara=google.com;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Dnz+WFhGoGD0bUKduuLS8GQlTGk7pv8rw+ORlQ772mo=;
+        b=PT0N7HmS8eXhv9gIGd225yKFcFONv5eLYOtw+UxXCfwzg9HluSNc2qqX6g4YyU+wd0
+         5Lj3IRGXSOytuLgTDRaAnDvrvS9N3GdAMG09a9eMriMXAVxuvI8b4hGuZBWr7P9u08AT
+         9jZjRbUfUmEdrgAgb2zcDaWQHg7CxNxO8HDmj2GwzAJ+J6tO6Myo+LeK1YYurQjIHkEO
+         DJGV8dcz2qxhTsN4beWfh+7ZlMolbZA/59g/02jTcvRhP4FPGNQjuN0RAt791U8Ag1UC
+         cKqyVRJdNUgRuFM7xYWmRgUGlqz3euG3IuVFV+gbkjXl4w06O6y3EcQ6PoUtI/Lzyl8J
+         gqKw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1707709741; x=1708314541;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Dnz+WFhGoGD0bUKduuLS8GQlTGk7pv8rw+ORlQ772mo=;
+        b=tHvFbKw3MvfRHlwEzVLcYmShsSrIWnr3Pd2G9pUQhRS2QGplkulRJ/e6d/aB/Isvou
+         2rzsJYw8mmYClL24wGPjkGYm2Duz0/I5y0OJg3wE99LIW73SjClz/YRnjvgze4du3c/l
+         W8M3qqv8wowqIAfjt6j8J3JNys83+ezAzXkgsV5HfLHD3Kay2sce6A6MMPIdKK3i76FH
+         BZO8xvRRfewAO5oAIW/QDNeQTvRtVsc/yK6H6gQdSt6AxOXS0HeS8OaNxB/THpWaz/eL
+         bxDkBz3Xk6/53yIXhsy0i33bcPahUgNES0Gnc0BGHZ8mUGsqIVz8WTCU/T3OadStLSTN
+         cfCg==
+X-Gm-Message-State: AOJu0Yx3sSx6e5MzyvJ9wSbybvCi6ZcO6FYmfJZUbs8G2gtg8cAIFh/S
+	AHq7N9kI4T8mvj+1G08GgbPx3l1aNGhCF1n1mn+/ef2Fye5cXjRzUWv8wJn22Cwsl7OyeT9qbrx
+	G
+X-Google-Smtp-Source: AGHT+IHzrKmKfx7j0dToUpe134kV+Zk9xzWyV4XZ4CGDvFSVkaxZd8eW8Jwk5Dvtvn64U73ZmmRTgA==
+X-Received: by 2002:a05:6359:442c:b0:178:c0fd:d2e4 with SMTP id nz44-20020a056359442c00b00178c0fdd2e4mr6194499rwb.10.1707620707224;
+        Sat, 10 Feb 2024 19:05:07 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id a7-20020a62bd07000000b006ddc7ed6edfsm2961629pff.51.2024.02.10.19.05.06
+        for <abielestaluhu14@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 10 Feb 2024 19:05:06 -0800 (PST)
+Message-ID: <8c8858a275cde18761b90aa105f43f76@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <abielestaluhu14@gmail.com>
+Subject: [ID Laporan 095630463] RE :Halo Cantas
+Date: Sun, 11 Feb 2024 10:05:03 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="08b63097eefa03ffdaf656a7000e76a0"
+
+This is a multi-part message in MIME format.
+
+--08b63097eefa03ffdaf656a7000e76a0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Bapak Abi Lestaluhu
+
+Terima kasih telah menghubungi Cantas=2E
+
+Dapat kami sampaikan bahwa untuk pembayaran denda di lakukan terpisah dari =
+saldo yang ada di aplikasi Cantas. Bapak dapat melakukan pembayaran =
+melalui tautan atau link yang di kirimkan ke whatsapp Bapak=2E
+
+Kami senantiasa berupaya memberikan pelayanan terbaik bagi Bapak Abi =
+Lestaluhu sebagai pengguna Cantas.=20
+
+Kunjungi halaman kontak kami di aplikasi Cantas atau hubungi kami di nomor =
+02150869996 atau Layanan Whatapps di nomor 081292380699 untuk informasi =
+&amp; keluhan seputar Cantas=2E
+Salam,Dhea KurniawatiCantas Contact CenterHi Cantas,
+
+Saya mau tanya untuk cara pembayaran denda apakah secara otomatis =
+terpotong dari saldo saya atau gimana ya?
+
+--08b63097eefa03ffdaf656a7000e76a0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p>Dear Bapak Abi Lestaluhu</p>
+
+<p>Terima kasih telah menghubungi Cantas.</p>
+
+<p>Dapat kami sampaikan bahwa untuk pembayaran denda di lakukan terpisah =
+dari saldo yang ada di aplikasi Cantas. Bapak dapat melakukan pembayaran =
+melalui tautan atau link yang di kirimkan ke whatsapp Bapak.</p>
+
+<p>Kami senantiasa berupaya memberikan pelayanan terbaik bagi Bapak Abi =
+Lestaluhu sebagai pengguna Cantas.&nbsp;</p>
+
+<p>Kunjungi halaman kontak kami di aplikasi Cantas atau hubungi kami di =
+nomor 02150869996 atau Layanan Whatapps di nomor 081292380699 untuk =
+informasi &amp; keluhan seputar Cantas.</p>
+</br><p>Salam,</p><p>Dhea Kurniawati</p><p><strong>Cantas Contact =
+Center</strong></p><img =
+src=3D"https://crm.uidesk.id/roatex/apps/Signature/cantas.jpg" =
+alt=3D"logo" width=3D"160px"></p><p><hr></p>Hi Cantas,
+<br>
+<br>Saya mau tanya untuk cara pembayaran denda apakah secara otomatis =
+terpotong dari saldo saya atau gimana ya?
+<br>
+
+--08b63097eefa03ffdaf656a7000e76a0--
+

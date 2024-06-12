@@ -1,0 +1,247 @@
+Received: from TY0PR0101MB4118.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:1be::11) by OSQPR01MB6381.apcprd01.prod.exchangelabs.com
+ (2603:1096:604:29f::7) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.24; Thu, 18 Jan
+ 2024 23:40:30 +0000
+Received: from SI6PR01MB6371.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:253::10) by TY0PR0101MB4118.apcprd01.prod.exchangelabs.com
+ (2603:1096:400:1be::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.24; Thu, 18 Jan
+ 2024 12:32:11 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bLMadJmwIP4rpgG4oBmbKAYZ5TQXjXIJ0TCRvUQ3VksrEYIIRnBjcQgOq1bvPqoQ7IlB2nqn+bNNFObZkGXB+qmhmNHQu5g0DezbrGmLualiy5pLB5+X/R6vyzc7nAK0SnpJf/CLl9iKFnFEj/rWilunskhdBOPx9fjP2805Ld4B+BcA+/qqaj+WemzqNrN6dWQkJm4uF3frWSGEKRlPY4KDjnF4QmkuvAaggEVUk2E0L5+X54fXYQ5RIasasP+wa5dCJIleweavNnxh+9oxjfg66CBE9Gh23Uu7j+ZpVGnXdLSMKfHobTnPGW2VVVtmvW7Pw2/RpVG+fHfMooGXXg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Yft4iXqYNepWXHjVUsaiWNgQ1/8HEfsLJC9S6tlPjVA=;
+ b=me0jcm8pw0w1fux9EQbbUqft1bnSHcwf568pvEqM5hPKr32p/cYEHoRA+Xf0W9gUK1EV/vkBP6CPECmiwXamIEPbncQbaA3+QdQa/P8GuRO4EUyCstq69ZYYsU6EBydb158Ge93gAV30TJwB1Frlaq1zwPIzBdkwpLdaOGah9sqPEPpR+FdvgPXTPIGdETMVnBPOTsuESJ+ZS2YnTtjuDeSvEtgIA7D3XsGD1qzFP/k3AnZDLPnTg8yNUIAPDYpMCQKQi/zQV2UpqpNNAUMZ0VPajmP7fUTCy3e+760OMm7NlcWGWksar1AcS2rZT930MnVXPMwJ4iSgiQaXm3A9Ww==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none (sender ip is
+ 209.85.210.172) smtp.rcpttodomain=brilife.co.id smtp.mailfrom=cantas.co.id;
+ dmarc=none action=none header.from=cantas.co.id; dkim=pass (signature was
+ verified) header.d=cantas-co-id.20230601.gappssmtp.com; arc=none (0)
+Received: from SG3P274CA0019.SGPP274.PROD.OUTLOOK.COM (2603:1096:4:be::31) by
+ SI6PR01MB6371.apcprd01.prod.exchangelabs.com (2603:1096:4:253::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.24; Thu, 18 Jan
+ 2024 01:25:24 +0000
+Received: from HK2PEPF00006FB5.apcprd02.prod.outlook.com
+ (2603:1096:4:be:cafe::7a) by SG3P274CA0019.outlook.office365.com
+ (2603:1096:4:be::31) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.24 via Frontend
+ Transport; Thu, 18 Jan 2024 01:25:24 +0000
+Authentication-Results: spf=none (sender IP is 209.85.210.172)
+ smtp.mailfrom=cantas.co.id; dkim=pass (signature was verified)
+ header.d=cantas-co-id.20230601.gappssmtp.com;dmarc=none action=none
+ header.from=cantas.co.id;compauth=pass reason=106
+Received-SPF: None (protection.outlook.com: cantas.co.id does not designate
+ permitted sender hosts)
+Received: from mail-pf1-f172.google.com (209.85.210.172) by
+ HK2PEPF00006FB5.mail.protection.outlook.com (10.167.8.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7181.14 via Frontend Transport; Thu, 18 Jan 2024 01:25:23 +0000
+Received: by mail-pf1-f172.google.com with SMTP id d2e1a72fcca58-6db05618c1fso8668699b3a.1
+        for <TestEmail@brilife.co.id>; Wed, 17 Jan 2024 17:25:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1705541121; x=1706145921; darn=brilife.co.id;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=pPWfh2xM2pplLBjICgeFb6YoTdU1mOtgAIzFe/+L6AE=;
+        b=m1wIfQ/OXNRaWBHSnCcX2FYUko3tdQTGIvFAqXTDtpIUrqFQ+6NMZcdiRoJME9XOuf
+         xCJ+Sxy1HeZNeG6MM7rjQtgPGRR1lVpC1zqewR3Dw5XzpsV0GftzG2vzLxeRUB4B2L1g
+         omsFpdjcDs1ZVEmOXDAqJ9zgWRjKmkLnwrn7EZgFTvjakeS2KHFriSxlGeUwNfTUMJ0l
+         QRGj/lhegrEB1uy2Zn8ZxeDDO7VnFYWxUH07lQ62MxN08FyIWP+hUmOOCvgxIezywsKe
+         prmneuKVX3cABmztNmiNRjicWUCJ1vR9UtJfACkeSV9rq4ERStkn+KulWFUdxrjmdMGh
+         8Meg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705541121; x=1706145921;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=pPWfh2xM2pplLBjICgeFb6YoTdU1mOtgAIzFe/+L6AE=;
+        b=gsEtSIn7zrUvvuowBF3nuH5BUxT8qsG6i07Ct5byy3dHw2p5o7BJ1sSqAomr2yJ9Fd
+         kPkgjthcM9vVySMHgPmxi4dQhbJWRd8Xiz5Y0E4olu4y63WPkrm7RdmtsSsxlJzQ/VKL
+         MT4TDT2Ervc8MwfaGpONu2Gi2wlwtxxcXgEc5pF4N8w7zm2usyWZpskfyQks+6Z4i5Lt
+         FeiPjLMvwHZ+qpJhw7aoowunxl8S+fM5htaMN3yMG7dZOxBOXnEofAOyKlul5pHDJUix
+         yHnRTPlxD6Lq/GCuom/jjbRWPUzySXAyeUr5idTa8cp7TgQoioTyG/mfs63B61Vc5a5s
+         E/Ow==
+X-Gm-Message-State: AOJu0YxlALi/3YawIxVw8hmMHYLD/3WXb2shCxL7RlZF3XtkxOsDGreJ
+	vMOE/1wnh32gCjfluraLRAmZQRZsikQDJPJ1KlhctiWSxnbei1yrXP3uURi8h9whKEotu2OlcNY
+	E
+X-Google-Smtp-Source: AGHT+IE1tR8PjL1b0Xo40obZlu5t1YbHSOz7OfQVR9R8u7T+CGPtDlnQ2Mizi2322pO8N/n0MBobbQ==
+X-Received: by 2002:a05:6a21:3d95:b0:199:9cf8:1dcb with SMTP id bj21-20020a056a213d9500b001999cf81dcbmr111000pzc.117.1705541121460;
+        Wed, 17 Jan 2024 17:25:21 -0800 (PST)
+Return-Path: care@cantas.co.id
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id sk1-20020a17090b2dc100b0028bd303dc58sm345586pjb.11.2024.01.17.17.25.20
+        for <TestEmail@brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 17 Jan 2024 17:25:21 -0800 (PST)
+Message-ID: <08ff727dae0dbcd8077669d3146b45a1@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <TestEmail@brilife.co.id>
+Subject: =?utf-8?B?UkVNQUlOREVSIDIwMjQwMTA0MDIwNjQxODE2ICBFbWFpbCBO?=
+	=?utf-8?B?b3RpZmljYXRpb24gVGlja2V0IEVzY2FsYXRpb24=?=
+Date: Thu, 18 Jan 2024 08:25:16 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="a7ba0bf716a89f8ff2597624000cc190"
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 557976a8-dd89-479a-bf82-ec18df17e878:0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ HK2PEPF00006FB5:EE_|SI6PR01MB6371:EE_|TY0PR0101MB4118:EE_|OSQPR01MB6381:EE_
+X-MS-Office365-Filtering-Correlation-Id: b924358d-58ac-42b5-e7e3-08dc17c45800
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?B?bHRSRXRMZk9jalJ6RTl2c1UvZkJ4THczOVA0d3luVUhaMGxuUHRJcGpSeUFm?=
+ =?utf-8?B?MDVLMnc0U2xyeFdYa2xrWklvUSs3dXNiZ1FMTjBKdU5zSktyeWozdXhZcS9p?=
+ =?utf-8?B?bTB6NmRGYXc3U2V4NEhDRnFQVHVXbjBzeUlCdTlFbU5Dd3RxRVlkWDIvTE4y?=
+ =?utf-8?B?dTE3SC9Xd2lpbzlweVpaaHJUdnpzU0IyenlWR0JLYlZSWFQyTWtQbkhjRmlQ?=
+ =?utf-8?B?ZXNqRGJNL09GaHRsR2VFVTQrVnVpNStCWGtIMU1XcjliM1NFTTJlLzR0djhj?=
+ =?utf-8?B?dWpnUHB6M2pYemlzakxBY2lzS3dKYVVmOFNWakRXSTVqelZHeEtQOWxqeWhS?=
+ =?utf-8?B?OVdoa2h0aGZLdnNPWDZsVy8zK1NXdnNSblJSbHNnbkVPQnBuUUpyQTUxVUF0?=
+ =?utf-8?B?K2ljUHVZOWk4SVJ4eG9DUVdHNFlWcWdReFg1b0w5VTU5cnFRU2g1TDNwNC9v?=
+ =?utf-8?B?am9TeWFodnEzYUFyUkJYQmViV2pqOEt5WWxjZHEydUhleTNtejZnQUFXamRO?=
+ =?utf-8?B?dGdkU0s0bmRsMHRTVThqWGI4NTVJRHRjMnV5cGdFclkrZjJZRjZnZS8zTGxW?=
+ =?utf-8?B?YnlyMEdkSGNZY1VteEo0ZjdDV3k3K0h1QlQwbldxNnZrSmlMSWdzdGNscHZF?=
+ =?utf-8?B?U0pySzhpRHFlM0RNbytJVEttNkkzTWNodml0MFNHSXJ3bFhFaHlPdWVicjJ5?=
+ =?utf-8?B?TmpLQU4rUFgwOHdMaXhDY1BGQUFBVDNIeDlyRGtUNzZ1Y1NWOStVOGdhMUJY?=
+ =?utf-8?B?b3U3MW1aTXA4Y0JlRHdkb2dZcnlRT2xXeWpxT1lBUUVlUGNDcWx3a0tmN0xS?=
+ =?utf-8?B?MzhxNWNHOUFtRFdLaFJ1QVNTa0REVFFDZHRmV0lRODg5TnlmeURKQjIwU1V6?=
+ =?utf-8?B?a1Y5OVlPY29pVW9iV0ZxUC9UVGR1RGwrTGJEMUk2ZjNsSlJGSlV1TmtKUTEv?=
+ =?utf-8?B?NEtGY01HYkVzQSsxcTJpTzVieHdQUW9La0xpMXhkWWcxdThBTUJGdGY2cFgx?=
+ =?utf-8?B?TmVaa2dPb3VXMldGWE5wUWE5Y3pWY210TVdGcHNYOUYybStyTU16S1pmeXJS?=
+ =?utf-8?B?SE91NWlmbTNwckNsS2dQU1RlZThOMlFDOXNMMEc0R2hpNFlTbDNMWDd6ODdp?=
+ =?utf-8?B?SUdBMW9UWnQ4Rk1DU2w2V1NjMjNnTVBzUzlEaWkxSjd5NEFJajdReGV4T21H?=
+ =?utf-8?B?Uy9NaEJZUkpmNUhWY1NqY3MwbFJDSDU1MU5oVFpqS1pwMGNmUHFTeldUYy9Q?=
+ =?utf-8?B?TWVVTmxVWjd0SENaTUhNdkljYlZ2OTZ1R2FYUlFtaGYxaFRHLy9iNWIvakxY?=
+ =?utf-8?B?U3dZZDY2eC96YW52cHlkUzYrbFNFM0I1aHNXTUV3eEZVcU0xSzZYWVdKV1Js?=
+ =?utf-8?B?UGJONG8wWkR2bHdOaTBWL1FCcnRzOWR0MnlubG9IMyswdnl1Z25vK3VPSXp2?=
+ =?utf-8?B?bTNNMGcwbUVBdzNaTm1vMElVc1ZwbEZGTUNyRVgrajlhR3VjQXRuS0hZZW9s?=
+ =?utf-8?B?MW4zWlh6Z0xXS3dBNXl4cWoyVlVqRXNpT0cyRWhOMTYvOC9jZWZmV3pqQzRL?=
+ =?utf-8?B?cWJ1SE9uL3MzU1o1ajhtRmZsVzJDUlRyY01iNkZ4QlFkQndNMWczcFF0WXBZ?=
+ =?utf-8?B?QTNVbDlxT2JRbHpUVUpHTzJDdk9QamRsOGtqdkhwTGRmVEVvV2V1a3pRSWxv?=
+ =?utf-8?B?WWpCckRpUWx2c2VaQTBNa1hOUTM0cmlOcVZIY2NnakRmbndFeW4zTVdZZHZH?=
+ =?utf-8?B?TUhlS3VpMnZ5azBHNXN4WmxFTXg2VHR6dzBPbUpNYkZQajJ0SFI5Z1QzUXJT?=
+ =?utf-8?B?SGptVy9MT3RsR3Z0VjN0UTlVVS9lVjRhNUoyaVkyME9GN0p6bFpMSDBYZm1j?=
+ =?utf-8?B?cTMzMjltK05ENFJzcVhsV2dkQ2pMZG1FekZjb1RPaWdTYitVcVF0N0JGY2dX?=
+ =?utf-8?B?WGlKajgxUE5saHFYVjF4bHhyNERUN2l5YmhldXZ4RG1EY3c4YjJXaFJoVi9w?=
+ =?utf-8?B?Y1RidUpNaTVja2xKT1hKMWlDMC9NRmlCZUNlM0V5cGdEVFgzZktPZHY3ZDQ0?=
+ =?utf-8?B?cXJJNSs1OGNSMlNGb1FtNlFwUE5iaEFyKzZVS3VjUW55YkJqN1JvTFl0TW9T?=
+ =?utf-8?B?YVFUYkxLcml6ZStlZHJVWm1KSEwra3J1elNkZGIyZzVuTWVyNkxlUlUzZ2Vm?=
+ =?utf-8?B?c3dNdEFRTDZkd0ZBeFB1RWVBV2tGbVQwbklncStEV3ZKNWJ5TWgyd0xtR2Ew?=
+ =?utf-8?B?a1ZxT21KS1kvRUZ5ZWFGTkk3aTQ1VHRmY3JWWVA5Ni9RclRmZWNhbWlQQmla?=
+ =?utf-8?B?ZXlhcFplUWZsenJmcnllSG1zYTRmQkF1eW5UT2JTOVlnUnE3VVZOb0JxQ0Iw?=
+ =?utf-8?B?bUdCTEpjOUVXWnRHTlpacnpOSXdJNWtBK3paeUxlR2lOeExQVkYxUW0rZHNa?=
+ =?utf-8?B?bVFxZ3BUT1dULzhkNE9PYUd0YjF2Q0ZqV0NJRS9rVi9uWVZFb3pUMElCUko1?=
+ =?utf-8?B?bFlMaTR1VWVndDk5MlZOUTF3N3IxNEd0cGhpRk1xblR3PT0=?=
+X-Forefront-Antispam-Report: CIP:209.85.210.172;CTRY:US;LANG:id;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-pf1-f172.google.com;PTR:mail-pf1-f172.google.com;CAT:NONE;SFS:(13230031)(230273577357003)(230173577357003)(230922051799003)(451199024)(6916009)(24736004)(33964004)(108616005)(8676002)(6666004)(86362001)(336012)(83380400001)(7596003)(7636003)(356005)(26005)(1096003)(956004)(2616005)(36756003)(5660300002)(6220400001)(103166001);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Jan 2024 01:25:23.6938
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b924358d-58ac-42b5-e7e3-08dc17c45800
+X-MS-Exchange-CrossTenant-Id: 557976a8-dd89-479a-bf82-ec18df17e878
+X-MS-Exchange-CrossTenant-AuthSource: HK2PEPF00006FB5.apcprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI6PR01MB6371
+X-OrganizationHeadersPreserved: SI6PR01MB6371.apcprd01.prod.exchangelabs.com
+X-OriginatorOrg: corp.brilife.co.id
+X-CrossPremisesHeadersFilteredByDsnGenerator:
+ OSQPR01MB6381.apcprd01.prod.exchangelabs.com
+
+--a7ba0bf716a89f8ff2597624000cc190
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+CAUTION: Jangan klik link atau membuka lampiran terkecuali anda mengenali p=
+engirim dan mengetahui bahwa isi dari email tersebut aman. Do not click lin=
+ks or open attachments unless you recognize the sender and know the content=
+ is safe.
+
+Dear Supervisor Agent
+
+Bersama ini kami sampaikan bahwa Tiket Nomor. 20240104020641816 dengan perm=
+asalahan :
+
+
+User salah memasukan no plat dan ingin melanjutkan trip dengan no plat yg b=
+enar saat sudah di jalan toll
+
+
+Mohon kiranya dapat segera menyelesaikan atau mengeskalasi Tiket Nomor. 202=
+40104020641816 kepada N/A.
+
+Demikian disampaikan, atas perhatian dan kerjasamanya, kami ucapkan terima =
+kasih.
+
+
+Salam,
+
+
+CUSTOMER CARE
+
+DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.
+DKI Jakarta
+
+--a7ba0bf716a89f8ff2597624000cc190
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" widt=
+h=3D"`&quot;100%`&quot;">
+<tbody>
+<tr>
+<td style=3D"background:#bba555;padding:5.25pt 5.5pt 5.25pt 1.5pt"></td>
+<td width=3D"`&quot;100%`&quot;" style=3D"width:100.0%;background:#ffe599;p=
+adding:5.25pt =0A=
+3.75pt 5.25pt 11.25pt; word-wrap:break-word" cellpadding=3D"`&quot;7px" 5px=
+=3D"" 7px=3D"" 15px`?=3D"" color=3D"`&quot;#212121`&quot;">
+<div>
+<p><span style=3D"font-size:11pt;font-family:Arial,sans-serif;color:=0A=
+#212121"><b>CAUTION:</b> Jangan klik link atau membuka lampiran terkecuali =
+anda mengenali pengirim dan mengetahui bahwa isi dari email tersebut aman. =
+Do not click links or open attachments unless
+ you recognize the sender and know the content is safe. </span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<p>Dear Supervisor Agent<br>
+&nbsp;<br>
+Bersama ini kami sampaikan bahwa Tiket Nomor. 20240104020641816 dengan perm=
+asalahan :&nbsp;<br>
+&nbsp;<br>
+</p>
+<p>User salah memasukan no plat dan ingin melanjutkan trip dengan no plat y=
+g benar saat sudah di jalan toll</p>
+<br>
+&nbsp;<br>
+Mohon kiranya dapat segera menyelesaikan atau mengeskalasi Tiket Nomor. 202=
+40104020641816 kepada N/A.<br>
+&nbsp;<br>
+Demikian disampaikan, atas perhatian dan kerjasamanya, kami ucapkan terima =
+kasih.<br>
+&nbsp;<br>
+&nbsp;&nbsp;<br>
+Salam,<br>
+&nbsp;<br>
+&nbsp;<br>
+<strong>CUSTOMER CARE</strong>
+<p></p>
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br>
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br>
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br>
+DKI Jakarta</p>
+</div>
+</body>
+</html>
+
+--a7ba0bf716a89f8ff2597624000cc190--

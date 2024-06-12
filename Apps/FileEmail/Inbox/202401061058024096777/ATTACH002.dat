@@ -1,0 +1,12 @@
+Reporting-MTA: dns; googlemail.com
+Received-From-MTA: dns; care@cantas.co.id
+Arrival-Date: Fri, 05 Jan 2024 19:57:51 -0800 (PST)
+X-Original-Message-ID: <88faf001ebbb101da78820fc06ce4a78@cantas.co.id>
+
+Final-Recipient: rfc822; postmaster@corp.brilife.co.id
+Action: failed
+Status: 5.4.1
+Remote-MTA: dns; corp-brilife-co-id.mail.protection.outlook.com.
+ (52.101.132.30, the server for the domain corp.brilife.co.id.)
+Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. [HK3PEPF0000021D.apcprd03.prod.outlook.com 2024-01-06T03:57:54.739Z 08DC081AD6479A54]
+Last-Attempt-Date: Fri, 05 Jan 2024 19:57:54 -0800 (PST)

@@ -1,0 +1,9 @@
+Reporting-MTA: dns;KL1PR01MB5116.apcprd01.prod.exchangelabs.com
+Received-From-MTA: dns;SEZPR01MB5562.apcprd01.prod.exchangelabs.com
+Arrival-Date: Fri, 5 Jan 2024 22:16:17 +0000
+
+Final-Recipient: rfc822;TestEmail@brilife.co.id
+Action: failed
+Status: 5.4.316
+Diagnostic-Code: smtp;550 5.4.316 Message expired, connection refused
+

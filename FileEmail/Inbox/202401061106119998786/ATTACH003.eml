@@ -1,0 +1,43 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=cantas-co-id.20230601.gappssmtp.com; s=20230601; t=1704513967; x=1705118767; darn=corp.brilife.co.id;
+        h=mime-version:date:subject:to:from:message-id:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=Qc+1IYzQRYtBOaoLyLqedZsi+i5HiFeotvszdWMSG3w=;
+        b=Ykvcci9UELn9aNEaKss6a/BBlRnLPwjNXKCpS6lfTVqE9K+O8tJgEzpO/KwTtTtYUR
+         PAaO9p+/nvV/AEBepRbathYzvGhteJGJQTCguFF3657RgUdhw1AluwsQcRPoungxZQbl
+         0aD8IUsqyFKwVjO0H7EfYeONCXc63j5vbABnjbbFgHJxhOAEduYQ2uoSs6/+XU7kTZVk
+         rRxyHwvpPod6Qq2A4eWzjGvw+6hygAyBwiX3BO1JMXi3nFzUaKPnR5b0vh7kRR1fYlWL
+         3hWmfnmRu9MEvfVTwPdNgCot8b42Ka5bvA5IHew3wsvQ79O1MyK6JxGL4w9PMKz/apRC
+         Eq+w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704513967; x=1705118767;
+        h=mime-version:date:subject:to:from:message-id:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=Qc+1IYzQRYtBOaoLyLqedZsi+i5HiFeotvszdWMSG3w=;
+        b=fLbXX0KtKQ+iUE2v5cQTookFLNfDWMYbRwRshuYzVx71Tmc9wJ2s/IXIflUGWouRtV
+         oS45+0v1Bi4KYatJdBqu70bAlnPmFwX60nOrZ/LKOYKbsUxqADbUxKd3I278alrLpFry
+         KXK9fVU4frsuj4M5I7MyLcYbXOBCEs7wnTWG9D3+c20hxYURsXjSbefeljjff4v2RJcw
+         cjfsFYkXUohKnWewr67+ZqAP0qM9AmCxm11TPvgadczImLNGZsMjQ/5/4fZJprO5chxT
+         e9PZDF6ELt/qKrSL4+azsGd844gxTkALI3pMfXLYmXJ582wQHhVXcY/PJbZHGIA5P489
+         NZRw==
+X-Gm-Message-State: AOJu0Yx5OwzusxIbMCbjCGASD4IQUMyFLghiUvBff/gKSYGuUBsv0d/F
+	6s6OigrLkDfO/BbMW9C7E07K/2GLdr92HeFXFmqQsdlwQHnHcY57YBs=
+X-Google-Smtp-Source: AGHT+IGXdMfkDjf6JvDdYznlsRHMPP13kCoIxNXNLzI20yqT0TTEZdNK+cONQrxdLZBKWVtvKCO9bw==
+X-Received: by 2002:a05:6808:d4c:b0:3bd:1f41:f20a with SMTP id w12-20020a0568080d4c00b003bd1f41f20amr310761oik.1.1704513966705;
+        Fri, 05 Jan 2024 20:06:06 -0800 (PST)
+Return-Path: <care@cantas.co.id>
+Received: from uidesk-frontend.domain ([103.79.131.74])
+        by smtp.gmail.com with ESMTPSA id w22-20020a63c116000000b005ccf10e73b8sm2168404pgf.91.2024.01.05.20.06.05
+        for <postmaster@corp.brilife.co.id>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 05 Jan 2024 20:06:06 -0800 (PST)
+Message-ID: <349debe599bd343ae680248a078ec2f2@cantas.co.id>
+From: "care@cantas.co.id" <care@cantas.co.id>
+To: <postmaster@corp.brilife.co.id>
+Subject: [ID Laporan 110152400]RE :Undeliverable:
+Date: Sat, 06 Jan 2024 11:06:01 +0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="fc48e61cb9a9d1f897182069000b1f90"
+
+----- Message truncated -----
