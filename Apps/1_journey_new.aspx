@@ -42,7 +42,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>E-mail</label>
@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Date of birth</label>
@@ -58,7 +58,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Gender </label>
@@ -79,7 +79,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>NIK number</label>
@@ -88,14 +88,14 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12" style="display:none">
                                         <div class="form-group">
                                             <label>Username</label>
                                             <input class="form-control input-lg" type="text" placeholder="Username" id="Journey_UserName" name="Journey_UserName" title="Username">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Password</label>
@@ -103,7 +103,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Address line</label>
@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Province</label>
@@ -127,7 +127,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>District</label>
@@ -135,7 +135,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Subdistrict</label>
@@ -143,7 +143,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                <div class="row" style="display:none">
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <label>Zip code</label>

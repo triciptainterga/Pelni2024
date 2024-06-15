@@ -9,6 +9,7 @@
     });
     TrmCustomer();
     comboBox();
+    getKotaKabupaten();
 
      //var cmbDatacusTomerProvince = $('#cusTomerProvince');
     //var resultSourceCategory = "";
@@ -78,6 +79,77 @@
         $("#DivAction").hide();
     }
 });
+
+function getKotaKabupaten(value) {
+    var cmbDatacusTomerCity = $('#cusTomerCity');
+    var resultSourceCategory = "";
+
+
+    var settings = {
+        "url": "https://alamat.thecloudalert.com/api/kecamatan/get/indonesia",
+        "method": "GET",
+        "timeout": 0,
+        "headers": {
+            "Cookie": "PHPSESSID=3ie8pj35sitmffprrtgju3kt9f"
+        },
+    };
+
+    $.ajax(settings).done(function (response) {
+
+        var json = response.result;
+        console.log("API city " + response.message)
+        var i, x;
+
+        cmbDatacusTomerCity.empty();
+        cmbDatacusTomerCity.append('<option value="">Select</option>');
+        if (response.message == "Berhasil") {
+            for (i = 0; i < json.length; i++) {
+
+                resultSourceCategory = '<option value="' + response.result[i].id + '">' + response.result[i].text + '</option>';
+                cmbDatacusTomerCity.append(resultSourceCategory);
+
+            }
+
+        }
+        GetDatakab();
+
+    });
+}
+
+function GetDatakab(value) {
+    var cmbDatacusTomerCity = $('#cusTomerCity');
+
+
+
+
+    var settings = {
+        "url": "https://alamat.thecloudalert.com/api/getdata?type=kabupaten&country=indonesia",
+        "method": "GET",
+        "timeout": 0,
+        "headers": {
+            "Cookie": "PHPSESSID=3ie8pj35sitmffprrtgju3kt9f"
+        },
+    };
+
+    $.ajax(settings).done(function (response) {
+
+        var json = response.result;
+        console.log("API city " + response.message)
+        var i, x;
+
+
+        if (response.message == "Berhasil") {
+            for (i = 0; i < json.length; i++) {
+
+
+                cmbDatacusTomerCity.append(resultSourceCategory);
+
+            }
+            console.log(response);
+        }
+
+    });
+}
 function comboBox() {
     var cmbOtherChannel = $('#cmbOtherChannel');
     $.ajax({
