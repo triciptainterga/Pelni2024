@@ -54,11 +54,11 @@
                                                 <%--<small class="sidetitle">E.g. +62123-1456-78900</small>--%>
                                                 <input type="text" id="Ticket_Phone" class="form-control" placeholder="Phone number">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>E-mail</label>
                                                 <input type="email" id="Ticket_Email" class="form-control" placeholder="E-mail">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Gender</label>
                                                 <div class="c-inputs-stacked">
                                                     <input name="Gender" type="radio" id="GenderMale_Ticket" value="Male">
@@ -67,23 +67,23 @@
                                                     <label for="GenderFemale_Ticket" class="block">Female</label>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Date of birth</label>
                                                 <input class="form-control" id="Ticket_Dateofbirth" type="date">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>NIK number</label>
                                                 <input type="text" id="Ticket_NIK" class="form-control" placeholder="NIK number">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Username</label>
                                                 <input type="text" id="Ticket_UserName" class="form-control" placeholder="Username">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Password</label>
                                                 <input type="text" id="Ticket_Password" class="form-control" placeholder="Password">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Address line</label>
                                                 <textarea rows="5" id="Ticket_Address" name="Ticket_Address" cols="5" class="form-control" placeholder="Address line"></textarea>
                                             </div>
@@ -95,7 +95,7 @@
                                                 <label>Customer Properties</label>
                                                 <input type="text" id="Customer_Properties" class="form-control" placeholder="Customer Properties" readonly="readonly">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Province</label>
                                                 <%--<small class="sidetitle">E.g. +62123-1456-78900</small>--%>
                                                 <input type="text" id="Ticket_Province" class="form-control" placeholder="Province">
@@ -105,17 +105,17 @@
                                                 <%--<small class="sidetitle">E.g. +62123-1456-78900</small>--%>
                                                 <input type="text" id="Ticket_City" class="form-control" placeholder="City">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>District</label>
                                                 <%--<small class="sidetitle">E.g. +62123-1456-78900</small>--%>
                                                 <input type="text" id="Ticket_District" class="form-control" placeholder="District">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Subdistrict</label>
                                                 <%--<small class="sidetitle">E.g. +62123-1456-78900</small>--%>
                                                 <input type="text" id="Ticket_Zip_Code" class="form-control" placeholder="Subdistrict">
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group" style="display:none">
                                                 <label>Postal code</label>
                                                 <input type="text" id="Ticket_KodePos" class="form-control" placeholder="Zip code">
                                             </div>
@@ -279,10 +279,10 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="form-group" style="display: none;">
-                                                    <label>Product Type</label>
-                                                    <select name="select" id="Ticket_ProductType" class="form-control" style="height: 33px;" onchange="Get_ProductName(1)">
+                                           <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <label>Status &nbsp;<span class="text-danger">*</span></label>
+                                                    <select name="select" id="Ticket_Status" required class="form-control" style="height: 33px;">
                                                         <option value="">Select</option>
                                                     </select>
                                                 </div>
@@ -306,16 +306,19 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label>Status &nbsp;<span class="text-danger">*</span></label>
-                                                    <select name="select" id="Ticket_Status" required class="form-control" style="height: 33px;">
+                                           
+                                              <div class="col-md-3">
+                                                <div class="form-group" style="display: none;">
+                                                    <label>Product Type</label>
+                                                    <select name="select" id="Ticket_ProductType" class="form-control" style="height: 33px;" onchange="Get_ProductName(1)">
                                                         <option value="">Select</option>
                                                     </select>
                                                 </div>
                                             </div>
+
+                                        </div>
+                                        <div class="row">
+                                            
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label>Type &nbsp;<span class="text-danger">*</span></label>
@@ -340,9 +343,6 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            
-                                        </div>
-                                        <div class="row">
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <label>New &nbsp;<span class="text-danger">*</span></label>
@@ -351,7 +351,11 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-9">
+                                            
+                                        </div>
+                                        <div class="row">
+                                            
+                                            <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label>Subtopic &nbsp;<span class="text-danger">*</span></label><span class="badge badge-pill badge-primary float-right" style="font-weight: bold; font-size: 12px;" id="Ticket_SLA"><i class="fa fa-clock-o"></i>&nbsp;0 Hour</span>
                                                     <select name="select" id="Ticket_EnquiryReason" onchange="getWS_SLAReason(1);" required class="form-control" style="height: 33px;">
@@ -1269,19 +1273,19 @@
                             </div>
                         </div>
                         <div class="row">                           
-                            <div class="col-md-3">
+                            <div class="col-md-3" style="display:none">
                                 <div class="form-group">
                                     <label>E-mail</label>
                                     <input type="text" class="form-control" id="cusTomerEmail" placeholder="E-mail">
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Phone number</label>
                                     <input type="text" class="form-control" id="cusTomerPhone" placeholder="Phone number">
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3" style="display:none">
                                 <div class="form-group">
                                     <label>Gender</label>
                                     <select name="select" id="cusTomerGender" class="form-control" style="height: 33px;">
@@ -1291,7 +1295,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3" style="display:none">
                                 <div class="form-group">
                                     <label>Date of birth</label>
                                     <input class="form-control" type="date" id="cusTomerDate">
@@ -1306,25 +1310,25 @@
                                     <input type="text" class="form-control" id="cusTomerPolisNumber" placeholder="Polis Number">
                                 </div>
                             </div>--%>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>NIK number</label>
                                     <input type="text" class="form-control" id="cusTomerNIK" placeholder="NIK number">
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>Username</label>
                                     <input type="text" class="form-control" id="cusTomerUserName" placeholder="Username">
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>Password</label>
                                     <input type="text" class="form-control" id="cusTomerPassword" placeholder="Password">
                                 </div>
                             </div>
-                             <div class="col-md-3">
+                             <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>Province</label>
                                     <select name="select" onchange="getProvince(1);" id="cusTomerProvince" class="form-control" style="height: 33px;">
@@ -1334,7 +1338,7 @@
                             </div>
                         </div>
                         <div class="row"> 
-                            <div class="col-md-3">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label>City</label>
                                     <select name="select" onchange="getCity(1);" id="cusTomerCity" class="form-control" style="height: 33px;">
@@ -1342,7 +1346,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>District</label>
                                     <select name="select" onchange="getDistrict(1);" id="cusTomerDistrict" class="form-control" style="height: 33px;">
@@ -1350,7 +1354,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>Subdistrict</label>
                                     <select name="select" onchange="getZipCode(1);" id="cusTomerZipCode" class="form-control" style="height: 33px;">
@@ -1358,7 +1362,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>Zip code</label>
                                     <select name="select" id="cusTomerFacebook" class="form-control" style="height: 33px;">
@@ -1375,14 +1379,14 @@
                                     <input type="text" class="form-control" id="cusTomerInstagram" placeholder="Instagram Account">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4"  style="display:none">
                                 <div class="form-group">
                                     <label>Twitter Account</label>
                                     <input type="text" class="form-control" id="cusTomerTwitter" placeholder="Twitter Account">
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row"  style="display:none">
                             <div class="col-md-12" style="margin-left: 3px; margin-right: -5px;">
                                 <div class="form-group">
                                     <textarea rows="6" class="form-control" id="cusTomerAlamat" name="cusTomerAlamat" placeholder="Alamat"></textarea>

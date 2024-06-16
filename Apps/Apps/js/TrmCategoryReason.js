@@ -311,7 +311,7 @@ function TrmCategoryReason() {
     $.ajax({
         type: "POST",
         url: "WebServiceGetDataMaster.asmx/TableTransactionTrmCategoryReason",
-        data: "{ TrxID:  '-', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0',TrxSubCategory2_1ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
+        data: "{ TrxID:  'Sele', TrxCategoryID: '0', TrxSubCategory1ID: '0', TrxSubCategory2ID: '0',TrxSubCategory2_1ID: '0', TrxName: '0', TrxEscalationUnit: '0', TrxLayer: '0', TrxSLA: '0', TrxStatus: '0', TrxUserName: '" + $("#hd_sessionLogin").val() + "'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {

@@ -1,0 +1,40 @@
+Time: 16/06/2024 05:50:46:135 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:50:46:212 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JNEACC2HSF485PCAWOMLDCXOOX0HBT1OC0D0LCKSRMQ3L6Z3OR' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:51:04:682 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:51:04:703 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='07HKLGYMKFUYZ3MXTRZOC4TZ7JXCU2XI6FK2S5Y1UWAU0XNOGR' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:52:55:152 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:52:55:231 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ENUFZ4ER8CDECNPH7LO0NRKBFJPWS6Y5B4EMNO1EJWNA0QJZ5L' WHERE USERNAME ='sudibyo'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:54:37:663 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/06/2024 05:54:37:690 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='SYGPAKBVDVFFRO4I0BKIR6CFYUYJ1L86K2EFR62LK7X2D0OARU' WHERE USERNAME ='sudibyo'
+---------------------------Success-------------------------------------------------------
+

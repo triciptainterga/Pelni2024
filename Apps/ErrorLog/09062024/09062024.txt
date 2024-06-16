@@ -1,0 +1,5 @@
+Time: 09/06/2024 08:37:18:103 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='XtraReportSummaryConversation.aspx' OR UrlUser2='XtraReportSummaryConversation.aspx' OR UrlUser3='XtraReportSummaryConversation.aspx')
+---------------------------Success-------------------------------------------------------
+

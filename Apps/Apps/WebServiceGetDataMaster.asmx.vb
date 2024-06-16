@@ -2578,6 +2578,7 @@ Public Class WebServiceGetDataMaster
                 sqlComm.Parameters.AddWithValue("@TrxCategoryID", "0")
                 sqlComm.Parameters.AddWithValue("@TrxSubCategory1ID", "0")
                 sqlComm.Parameters.AddWithValue("@TrxSubCategory2ID", "0")
+                sqlComm.Parameters.AddWithValue("@TrxSubCategory2_1ID", "0")
                 sqlComm.Parameters.AddWithValue("@TrxName", "0")
                 sqlComm.Parameters.AddWithValue("@TrxEscalationUnit", "0")
                 sqlComm.Parameters.AddWithValue("@TrxLayer", "0")

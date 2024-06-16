@@ -1,0 +1,714 @@
+Time: 13/06/2024 02:23:43:615 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:43:681 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:43:681 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='bayuaji' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:45:318 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'bayuaji', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:45:385 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:45:925 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'bayuaji', 'Open', '2','1073'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:46:207 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:46:270 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:46:795 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:23:47:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:150 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:165 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:183 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:185 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:332 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','bayuaji','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:362 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:386 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:410 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:430 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:698 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:01:904 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'bayuaji','layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:135 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:201 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:308 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','bayuaji','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:671 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:808 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 02:24:02:812 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:03:209 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','bayuaji','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:22:878 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '','bayuaji','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:22:896 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:23:402 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:23:433 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:23:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:24:810 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'bayuaji','layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:24:905 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:25:088 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:25:119 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:25:135 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:25:465 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','bayuaji','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:25:979 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','bayuaji','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:26:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','bayuaji','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:27:045 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','bayuaji','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:24:27:511 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','null','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:27:18:260 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:31:593 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:31:622 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:31:623 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='bayuaji' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:33:165 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'bayuaji', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:33:256 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:33:591 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:33:654 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:34:277 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'bayuaji', 'Open', '2','1073'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:34:676 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:35:194 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:306 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:350 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:368 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:383 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:430 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','bayuaji','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:446 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:469 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:487 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:510 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:46:871 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:063 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'bayuaji','layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:343 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:439 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:456 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:856 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:876 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','bayuaji','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:47:954 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','bayuaji','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:33:48:380 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:006 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Update_TransactionTicket_New '20240611120438098','<p>jdfdjfk</p>
+','Open','bayuaji', 'Yes','0', '0', '1073', '2', '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:834 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:855 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:869 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:882 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:906 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:936 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'bayuaji','layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:949 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:02:990 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:03:002 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:03:029 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:03:334 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','bayuaji','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:03:834 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:04:348 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:04:373 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:04:847 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','bayuaji','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:04:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','bayuaji','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:05:355 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:05:425 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 06:34:05:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:30:484 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:36:544 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:36:565 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:36:566 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='bayuaji' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:38:182 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'bayuaji', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:38:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:38:625 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:39:143 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:39:650 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:40:166 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:40:867 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'bayuaji', 'Open', '2','1073'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:325 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:353 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','bayuaji','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:381 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:531 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'bayuaji','layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:545 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:561 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:576 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:603 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','bayuaji','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:58:810 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','bayuaji','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:59:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','bayuaji','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:34:59:897 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:35:00:370 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:35:00:873 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:35:00:892 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:35:01:410 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','bayuaji','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:35:01:973 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 06:35:01:974 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','bayuaji','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 06:38:57:896 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','bayuaji','Insert'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,100 @@
+Time: 05/06/2024 11:52:58:843 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 11:52:58:926 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='7V3MU3HXTGHNIHZXRTNSEWHT2B4VO07NE7GBM0FFVDJJEW7YGD' WHERE USERNAME ='Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 11:55:07:770 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','231206093308'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:06:43:032 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:06:43:197 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JAFBQ7A6OR4MFB7LXWA7KKOWMQCFOU55PPOBWAGTEZT4JO3DVO' WHERE USERNAME ='Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:07:30:544 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','231206093308'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:30:18:936 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:30:19:013 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='NHQF3DG4VNBVHVKHUOFXR8VUIFP1CB5HFDSUOJ1LOFRQ31JSY2' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:53:162 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:53:164 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:53:214 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:53:232 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='88HK3TWZDONO2YCQ3Z6W0NEEXBVNM8DHJV7XIYDAS0VCD0NCSK' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:59:043 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:59:045 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:59:060 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:41:59:060 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BZDXKVDTDN36JCZGO8EQIE1YO1CNTRTUJET6DN5J6MINIHWWQY' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:46:35:434 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:46:35:434 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:46:35:451 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/06/2024 12:46:35:466 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='FYNFPIQEGR1U4O6RQVDBL0COHFS3C3VULNBET3HMOC41AKOSA8' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

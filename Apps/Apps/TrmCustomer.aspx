@@ -83,19 +83,19 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>E-mail</label>
                                                 <input type="text" class="form-control" id="Profile_Email" placeholder="E-mail">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Phone number</label>
                                                 <input type="text" class="form-control" id="Profile_Phone" placeholder="Phone number">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>Gender</label>
                                                 <select name="select" id="Profile_Gender" class="form-control" style="height: 33px;">
@@ -105,14 +105,14 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>Date of birth</label>
                                                 <input class="form-control" id="Profile_Birth" type="date">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row" style="display:none">
                                         <div class="col-md-3">
                                             <div class="form-group">
                                                 <label>NIK number</label>
@@ -141,8 +141,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-3">
+                                    <div class="row" >
+                                        <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>City</label>
                                                 <select name="select" onchange="getCity(1);" id="cusTomerCity" class="form-control">
@@ -151,7 +151,7 @@
                                                 <input type="text" class="form-control" id="Instagram_Account" placeholder="Instagram Account" style="display: none;">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>District</label>
                                                 <select name="select" onchange="getDistrict(1);" id="cusTomerDistrict" class="form-control">
@@ -160,7 +160,7 @@
                                                 <input type="text" class="form-control" id="Twitter_Account" placeholder="Twitter Account" style="display: none;">
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>Subdistrict</label>
                                                 <select name="select" onchange="getZipCode(1);" id="cusTomerZipCode" class="form-control">
@@ -168,7 +168,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
+                                        <div class="col-md-3" style="display:none">
                                             <div class="form-group">
                                                 <label>Postal code</label>
                                                  <%--<input type="text" class="form-control" id="KodePos" placeholder="Zip code">--%>
@@ -178,7 +178,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row" style="display:none">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Address line</label>
@@ -384,7 +384,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>E-mail</label>
                                     <input type="text" class="form-control" id="cusTomerEmail" placeholder="E-mail">
@@ -396,7 +396,7 @@
                                     <input type="text" class="form-control" id="cusTomerPhone" placeholder="Phone number">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>Gender</label>
                                     <select name="select" id="addcusTomerGender" class="form-control">
@@ -407,20 +407,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-4">
+                        <div class="row" >
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>Date of birth</label>
                                     <input class="form-control" type="date" id="cusTomerDate">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>NIK number</label>
                                     <input type="text" class="form-control" id="cusTomerNIK" placeholder="NIK number">
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>Facebook Account</label>
                                     <input type="text" class="form-control" id="cusTomerFacebook" placeholder="Facebook ">
@@ -428,7 +428,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4" style="display:none">
                                 <div class="form-group">
                                     <label>Instagram Account</label>
                                     <input type="text" class="form-control" id="cusTomerInstagram" placeholder="Instagram">

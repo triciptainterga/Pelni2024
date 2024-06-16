@@ -1,0 +1,936 @@
+Time: 13/06/2024 11:28:38:461 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'sudibyo','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:28:38:533 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:28:38:600 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:28:38:604 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:28:38:727 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in C:\CodeVb\NewPelni\Apps\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\CodeVb\NewPelni\Apps\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 11:28:38:948 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:49:39:615 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:49:39:641 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:49:39:642 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:49:39:784 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:50:20:760 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:50:20:794 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:50:20:794 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 11:50:20:890 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:13:08:968 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:13:09:033 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:13:09:037 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:13:09:142 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:19:00:504 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:19:00:538 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:19:00:538 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:19:00:608 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:21:16:495 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:21:16:554 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:21:16:555 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 12:21:16:637 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:23:819 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:23:866 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:23:871 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:36:271 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:36:291 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:36:292 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:17:36:371 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:34:56:984 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:34:57:852 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:34:57:853 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:04:863 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:04:899 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:04:900 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:05:683 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:29:368 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:29:391 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:29:392 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:30:163 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:56:801 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:56:827 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:56:828 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:35:56:929 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:39:34:607 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:39:34:634 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:39:34:635 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 01:39:34:718 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:12:35:021 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:12:35:077 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:12:35:078 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:12:35:174 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:15:40:399 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:15:40:421 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:15:40:422 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:15:40:530 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:18:56:273 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:18:56:347 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:18:56:349 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:18:56:442 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:27:23:805 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:27:23:824 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:27:23:825 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:27:23:945 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:29:28:324 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:29:28:349 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:29:28:350 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:29:31:766 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:31:39:665 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:31:39:690 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:31:39:691 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:31:44:529 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:27:087 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:27:113 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:27:114 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:30:629 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:59:588 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:59:613 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:37:59:613 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:38:15:015 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:40:57:101 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:40:57:128 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:40:57:130 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:41:00:928 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:42:49:306 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:42:49:332 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:42:49:333 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:42:52:881 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:45:25:698 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:45:25:725 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:45:25:728 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:45:32:702 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:47:43:235 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:47:43:278 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:47:43:279 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:48:13:275 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:48:34:062 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:48:34:087 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:48:34:088 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:48:37:203 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:49:38:312 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:49:38:336 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:49:38:337 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:49:41:366 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:51:03:458 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:51:03:489 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:51:03:490 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:51:06:082 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:59:18:103 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:59:18:131 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:59:18:132 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 02:59:25:869 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:00:43:168 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:00:43:191 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:00:43:192 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:10:58:423 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Level Pelni' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:06:595 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:06:619 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','sudibyo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:06:619 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='sudibyo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:08:701 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'sudibyo', '4', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:08:779 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:09:136 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:09:185 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:09:909 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'sudibyo', 'Open', '4','1073'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:10:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:10:721 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:562 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:577 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:597 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','sudibyo','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:611 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','sudibyo','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:639 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:794 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'sudibyo',''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:808 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:840 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:13:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:14:121 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:14:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:14:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','sudibyo','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:15:131 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:15:151 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:15:647 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','sudibyo','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:15:674 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','sudibyo','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:16:279 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 03:11:16:281 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:34:830 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Update_TransactionTicket_New '20240611120438098','<p>eer</p>
+','Open','sudibyo', 'Yes','0', '0', '1073', '2', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:255 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:271 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','sudibyo','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:305 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','sudibyo','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:318 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:450 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'sudibyo',''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:469 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:503 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:518 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:660 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:35:781 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','sudibyo','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:36:280 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','sudibyo','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:36:876 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:37:341 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:37:816 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:37:835 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:38:374 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231206130411','sudibyo','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:11:38:924 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\CodeVb\NewPelni\Apps\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/06/2024 03:11:38:925 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240611120438098','sudibyo','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:32:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'sudibyo', '4', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:32:724 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:33:067 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:33:090 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:33:595 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','sudibyo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:33:609 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/06/2024 03:12:34:503 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'sudibyo', 'Open', '4','1073'
+---------------------------Success-------------------------------------------------------
+

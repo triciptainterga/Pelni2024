@@ -1,0 +1,1051 @@
+Time: 14/06/2024 02:43:21:163 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Abdul','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:214 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:346 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:367 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:367 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Abdul' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:417 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in C:\CodeVb\NewPelni\Apps\auth_local.aspx.vb:line 125
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\CodeVb\NewPelni\Apps\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 02:43:21:760 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:22:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:22:398 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:22:875 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:23:330 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:23:977 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:24:342 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:24:713 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:37:907 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:185 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Abdul','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Abdul','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:224 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:236 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:251 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Abdul','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:38:697 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:39:221 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:39:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:40:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:40:764 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:41:448 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:41:934 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:41:968 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:42:445 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:49:501 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00000','UideskIndonesia','Abdul','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:52:364 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','Abdul','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:43:54:957 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','Abdul','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:44:07:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Abdul','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:51:56:166 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','Abdul','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 02:52:26:097 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:34:865 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:34:909 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:34:920 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:34:921 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Abdul' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:35:201 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:36:180 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:36:261 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:36:716 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:37:225 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:37:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:38:266 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:38:898 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:46:831 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Abdul','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Abdul','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:142 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:189 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:233 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Abdul','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:245 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:474 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:499 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:517 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:556 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:47:606 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:48:115 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:48:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:49:145 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:49:852 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:16:54:568 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00000','UideskIndonesia','Abdul','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:17:03:479 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','Abdul','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:17:03:940 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Abdul','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:17:07:787 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','Abdul','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:17:09:865 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','Abdul','UIDESK310_2_1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 05:17:12:513 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'C21-00000','UideskIndonesia','Abdul','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:40:836 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:40:925 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:40:936 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:40:937 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Abdul' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:41:164 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:42:087 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:42:184 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:42:513 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:42:998 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:43:506 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:44:021 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:31:46:188 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:53:742 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:54:410 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:54:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:54:472 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:56:496 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:34:56:496 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:56:527 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:57:008 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:34:57:031 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:27:022 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:28:083 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:28:113 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:28:143 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:28:627 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:28:643 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:29:401 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:35:29:402 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:35:29:659 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:37:341 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:38:275 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:38:399 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:38:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:38:899 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:39:630 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:39:39:631 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:39:924 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:40:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:53:313 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:54:300 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:54:327 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:54:391 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:55:067 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:39:55:068 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:55:497 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:55:941 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:39:56:457 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:11:242 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:12:204 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:12:304 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:12:699 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:14:606 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:43:14:607 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:14:762 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:15:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:15:800 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:38:785 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:39:686 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:39:718 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:40:227 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:40:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:40:807 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:43:40:807 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:41:271 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:41:787 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:44:782 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:45:669 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:45:698 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:46:171 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:46:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:47:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:47:714 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 07:43:48:258 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'In progress', '1',''
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 07:43:48:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'In progress', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:22:553 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:29:657 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Abdul'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:29:684 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:29:684 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Abdul' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:34:711 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:44:713 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Abdul', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:44:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:45:769 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:46:526 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:47:784 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:49:115 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:50:49:705 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1','1073'
+Message: A cursor with the name 'mStatus_Cursor' already exists.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.ServiceTaskboard.DataTableTaskboardNew(String TrxUserName, String TrxStatus, String TrxLoginTypeAngka, String TrxDivisi) in C:\CodeVb\NewPelni\Apps\apps\asmx\ServiceTaskboard.asmx.vb:line 387
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/06/2024 10:50:49:706 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Abdul', 'Open', '1','1073'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:07:555 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:08:979 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Abdul','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:08:999 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Abdul','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:029 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Abdul','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:126 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:252 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:275 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:292 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:319 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Abdul','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:09:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:10:436 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:10:978 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:11:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:51:11:660 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Abdul','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:55:33:829 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Abdul' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/06/2024 10:55:35:033 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Abdul','Insert'
+---------------------------Success-------------------------------------------------------
+

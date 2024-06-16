@@ -244,7 +244,7 @@ function OnchangeCmbLevelUser() {
         //$("#cmbDepartment").val("");
         $('#cmbDepartment').attr("disabled", false);
         $('#cmbGroupAgent').attr("disabled", false);
-        $('#divChannel').css("display", "none");
+       // $('#divChannel').css("display", "none");
     } else if (selectedValue == 'Layer 3') {
         //alert(selectedValue)
         //alert($("#cmbGroupAgent").val())

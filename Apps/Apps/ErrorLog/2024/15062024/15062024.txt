@@ -1,0 +1,50 @@
+Time: 15/06/2024 11:46:29:729 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 11:46:29:742 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 11:46:29:802 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 11:46:29:820 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LEBH5DIMG18QCWLADMGCDC572ODV8R5VQU57GNQQXWQ5XRGYD1' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 12:06:49:353 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 12:06:49:425 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UO5Z00CEHBNMTLDLDGBPC8H055PEPORZBSYYGUDEJWU6820ZXW' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 02:42:20:699 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 02:42:20:781 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JFQTZ1O5JJF54TUW5DTU5B26RE2CLX5VTTFL1NKCR5N7YCR23V' WHERE USERNAME ='ajisakha'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 02:46:20:384 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 15/06/2024 02:46:20:410 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JA7A0XZTZ1JKWS3300YN8SGFUR56ABXPSQL3O0DNFVWUSWFAFY' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
