@@ -5433,6 +5433,38 @@ Public Class WebServiceGetDataMaster
     End Function
     <WebMethod(EnableSession:=True)>
     <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function TableTransactionTrmCategoryDetail_2_1(ByVal TrxID As String, ByVal TrxSearching As String, ByVal TrxUserName As String, ByVal TrxAction As String) As String
+        Dim connstring As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim dt As DataTable = New DataTable()
+
+        Dim NameSP = "Exec UIDESK_TrxTransactionTicket"
+        Dim ExecSP = "" & NameSP & " '" & TrxID & "','" & TrxSearching & "','" & TrxUserName & "','" & TrxAction & "'"
+        Try
+            Using conn As SqlConnection = New SqlConnection(connstring)
+                conn.Open()
+                Dim sqlComm As SqlCommand = New SqlCommand("UIDESK_TrxTransactionTicket", conn)
+                sqlComm.Parameters.AddWithValue("@TrxID", TrxID)
+                sqlComm.Parameters.AddWithValue("@TrxSearching", TrxSearching)
+                sqlComm.Parameters.AddWithValue("@TrxUserName", TrxUserName)
+                sqlComm.Parameters.AddWithValue("@TrxAction", TrxAction)
+                sqlComm.CommandType = CommandType.StoredProcedure
+                Dim da As SqlDataAdapter = New SqlDataAdapter()
+                Dim ds As DataSet = New DataSet()
+                da.SelectCommand = sqlComm
+                da.Fill(ds)
+                dt = ds.Tables(0)
+                conn.Close()
+            End Using
+        Catch ex As Exception
+            LogError(HttpContext.Current.Session("UserName"), ex, ExecSP)
+        Finally
+            LogSuccess(HttpContext.Current.Session("UserName"), ExecSP)
+        End Try
+        Dim tableJson As String = BigConvertDataTabletoString(dt)
+        Return tableJson
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
     Public Function UIDESK_TrxSosialMedia(ByVal TrxID As String, ByVal TrxSearching As String, ByVal TrxUserName As String, ByVal TrxAction As String) As String
         Dim connstring As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
         Dim dt As DataTable = New DataTable()

@@ -12390,6 +12390,7 @@
     <Content Include="apps\XtraDatakelola_1.aspx" />
     <Content Include="apps\XtraDatakelola_2.aspx" />
     <Content Include="apps\XtraHistoryMultichat.aspx" />
+    <Content Include="apps\XtraReportDetailDaily.aspx" />
     <Content Include="apps\XtraReport_TicketMapping.aspx" />
     <Content Include="apps\Xtra_ReportActivityCall.aspx" />
     <Content Include="assets\vendor_components\animate\animate.css" />
@@ -25480,6 +25481,13 @@
     <Compile Include="apps\XtraHistoryMultichat.aspx.vb">
       <DependentUpon>XtraHistoryMultichat.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="apps\XtraReportDetailDaily.aspx.designer.vb">
+      <DependentUpon>XtraReportDetailDaily.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apps\XtraReportDetailDaily.aspx.vb">
+      <DependentUpon>XtraReportDetailDaily.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="apps\XtraReport_TicketMapping.aspx.designer.vb">
       <DependentUpon>XtraReport_TicketMapping.aspx</DependentUpon>

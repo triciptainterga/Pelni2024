@@ -14,22 +14,7 @@
     <asp:HiddenField ID="Hd_CmbCategoryType" runat="server" />
     <asp:HiddenField ID="Hd_CmbCategoryTopic" runat="server" />
     <asp:HiddenField ID="Hd_Status" runat="server" />
-    <%--<div class="content-header">
-        <div class="d-flex align-items-center">
-            <div class="w-p100 d-md-flex align-items-center justify-content-between">
-                <h3 class="page-title">Data Category Detail <i class="fa fa-plus" onclick=showAdd()></i></h3>
-                <div class="d-inline-block align-items-center">
-                    <nav>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#"><i class="mdi mdi-home-outline"></i></a></li>
-                            <li class="breadcrumb-item" aria-current="page">Master Data</li>
-                            <li class="breadcrumb-item active" aria-current="page">Data Category Detail</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>--%>
+ 
     <section class="content">
         <div class="row">
             <div class="col-12">
@@ -42,10 +27,10 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Type</th>
-                                    <th>Category </th>
-                                    <th>Topic</th>
-                                    <th>New</th>
+                                    <th>Category 1 ID</th>
+                                    <th>Category 2 ID </th>
+                                    <th>Sub Name</th>
+                                    <th>Description</th>
                                     <th>Status</th>
                                     <th>User Create</th>
                                     <th style="width: 200px;">Date Create</th>

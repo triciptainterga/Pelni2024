@@ -46,7 +46,7 @@
                                         <!-- /.box-header -->
                                         <div class="box-body">
                                             <div class="form-group">
-                                                <label>Full name</label>
+                                                <label>Full name 1</label>
                                                 <input type="text" id="Ticket_FullName" class="form-control" placeholder="Full name">
                                             </div>
                                             <div class="form-group">
@@ -214,26 +214,26 @@
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label>Full name</label>
-                                                    <input type="text" class="form-control" id="Reported_Name" placeholder="Full Name" readonly="readonly">
+                                                    <label>Full Name Reported</label>
+                                                    <input type="text" class="form-control" id="Reported_Name" placeholder="Full Name" fdprocessedid="">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label>E-mail</label>
-                                                    <input type="text" class="form-control" id="Reported_Email" placeholder="E-mail" readonly="readonly">
+                                                    <label>E-mail Reported</label>
+                                                    <input type="text" class="form-control" id="Reported_Email" placeholder="E-mail" fdprocessedid="xo40o8">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label>Phone number</label>
-                                                    <input type="text" class="form-control" id="Reported_Phone" placeholder="Phone number" readonly="readonly">
+                                                    <label>Contact Number Reported</label>
+                                                    <input type="text" class="form-control" id="Reported_Phone" placeholder="Phone" fdprocessedid="1cjzk">
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group">
-                                                    <label>Username</label>
-                                                    <input type="text" class="form-control" id="Reported_Channel_Contact" placeholder="Username" readonly="readonly">
+                                                    <label>Contact Account Reported</label>
+                                                    <input type="text" class="form-control" id="Reported_Channel_Contact" placeholder="Channcel Contact" fdprocessedid="klq4r">
                                                 </div>
                                             </div>
                                         </div>

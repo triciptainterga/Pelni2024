@@ -22,6 +22,14 @@
     //    }
     //})
 
+  
+    $("#Ticket_FullName").prop("disabled", true);
+    $("#Ticket_Phone").prop("disabled", false);
+    $("#Ticket_Email").prop("disabled", false);
+    $("#Ticket_Address").prop("disabled", false);
+
+  
+
     getKotaKabupaten();
 
     $("#LoaderChannel").hide();
@@ -169,7 +177,7 @@ function ActionInsertCustomer(cusTomerid, channel, threadid, numberid, voice, su
     var TrxUsername = $("#hd_sessionLogin").val();
     var TrxCusTomerName = $("#cusTomerName").val();
     var TrxCusTomerEmail = $("#cusTomerEmail").val();
-    var TrxCusTomerPhone = $("#cusTomerPhone").val();
+    var TrxCusTomerPhone = "62" + $("#cusTomerPhone").val().slice(1);
     var TrxCusTomerGender = $("#cusTomerGender").val();
     var TrxCusTomerDate = $("#cusTomerDate").val();
     var TrxCustomerPolisNumber = "-";

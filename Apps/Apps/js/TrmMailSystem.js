@@ -160,7 +160,7 @@ function TrmInboxEmail() {
                     "<a class='dropdown-item' href='#' onclick=Assign('" + json[i].IVC_ID + "')><i class='fa fa-share-alt'></i> Assign</a>" +
                     "<a class='dropdown-item' href='#' onclick=Forward_Inbox('" + json[i].IVC_ID + "')><i class='fa fa-share'></i> Forward</a>" +
                     "<a class='dropdown-item' href='#' onclick=PreviewTableInbox('" + json[i].EMAIL_ID + "')><i class='si-arrow-right-circle si'></i> Preview</a>" +
-                    "<a class='dropdown-item' href='#' onclick=EmailConversation('" + encodeData(json[i].RefID) + "')><i class='fa fa-commenting'></i> Conversation</a>" +
+                    "<a class='dropdown-item' href='#' onclick=EmailConversation('" + json[i].RefID + "')><i class='fa fa-commenting'></i> Conversation</a>" +
                     "<div class='dropdown-divider'></div>" +
                     "" + urlticket +""
                     //"<a class='dropdown-item' href='#' onclick=CrateTicket('" + json[i].IVC_ID + "')><i class='si-arrow-right-circle si'></i> Ticket</a>" +

@@ -6,8 +6,10 @@ function TrmCategoryDetail() {
     var myTable = $('#TrmCategoryDetail').DataTable();
     $.ajax({
         type: "POST",
-        url: "WebServiceGetDataMaster.asmx/TableTransactionTrmCategoryDetail_2_1",
-        data: "{TrxID:'-', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '-', TrxStatus: '-'}",
+        //url: "WebServiceGetDataMaster.asmx/TableTransactionTrmCategoryDetail_2_1",
+        //data: "{TrxID:'-', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxName: '-', TrxStatus: '-'}",
+        url: "WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo",
+        data: "{TrxID:'', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK310_2_1'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -34,7 +36,7 @@ function TrmCategoryDetail() {
                     var TrxParam = "<span class='badge badge-pill badge-danger' style='width: 60px;'>Non Aktif</span>"
                 }
 
-                myTable.row.add([json[i].ID, json[i].CategoryName, json[i].CategoryType, json[i].CategoryTopic, json[i].SubName, TrxParam, json[i].UserCreate, newDate + ' ' + newTime, urlClick]).draw(false);
+                myTable.row.add([json[i].ID, json[i].CategoryID, json[i].SubCategory1ID, json[i].SubCategory2ID, json[i].SubName, TrxParam, json[i].UserCreate, newDate + ' ' + newTime, urlClick]).draw(false);
 
             }
 
