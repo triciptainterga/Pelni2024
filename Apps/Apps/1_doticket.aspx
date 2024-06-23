@@ -1328,7 +1328,7 @@
                                     <input type="text" class="form-control" id="cusTomerPassword" placeholder="Password">
                                 </div>
                             </div>
-                             <div class="col-md-3"  style="display:none">
+                             <div class="col-md-3" >
                                 <div class="form-group">
                                     <label>Province</label>
                                     <select name="select" onchange="getProvince(1);" id="cusTomerProvince" class="form-control" style="height: 33px;">
@@ -1336,9 +1336,7 @@
                                     </select>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row"> 
-                            <div class="col-md-12">
+                             <div class="col-md-9">
                                 <div class="form-group">
                                     <label>City</label>
                                     <select name="select" onchange="getCity(1);" id="cusTomerCity" class="form-control" style="height: 33px;">
@@ -1346,6 +1344,9 @@
                                     </select>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row"> 
+                           
                             <div class="col-md-3"  style="display:none">
                                 <div class="form-group">
                                     <label>District</label>

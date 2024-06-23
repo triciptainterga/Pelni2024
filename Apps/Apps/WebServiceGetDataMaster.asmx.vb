@@ -5648,4 +5648,44 @@ Public Class WebServiceGetDataMaster
         Dim js As JavaScriptSerializer = New JavaScriptSerializer()
         Return js.Serialize(listTickets)
     End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function InsertTransactionTrmCategoryDetail_2_1(ByVal ID As Int32, ByVal TrxCategoryID As String, ByVal TrxSubCategory1ID As String, ByVal TrxSubCategory2ID As String, ByVal TrxName As String, ByVal TrxStatus As String, ByVal TrxUserName As String) As String
+        Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
+        Dim strExec As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "UIDESK_TrxCategoryDetail_2_1"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("TrxID", ID)
+                sqlComm.Parameters.AddWithValue("TrxCategoryID", TrxCategoryID)
+                sqlComm.Parameters.AddWithValue("TrxSubCategory1ID", TrxSubCategory1ID)
+                sqlComm.Parameters.AddWithValue("TrxSubCategory2ID", TrxSubCategory2ID)
+                sqlComm.Parameters.AddWithValue("TrxName", TrxName)
+                sqlComm.Parameters.AddWithValue("TrxStatus", TrxStatus)
+                sqlComm.Parameters.AddWithValue("TrxUserName", TrxUserName)
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "False"
+            objectTickets.TrxmsgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            ' strExec = "exec VUE_UIDESK_InsertTransaction '" & Data_1 & "','" & Data_2 & "','" & Data_3 & "','" & Data_4 & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "True"
+            objectTickets.TrxmsgSystem = "Data Has Been Save"
+            listTickets.Add(objectTickets)
+            ' strExec = "exec VUE_UIDESK_InsertTransaction '" & Data_1 & "','" & Data_2 & "','" & Data_3 & "','" & Data_4 & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
 End Class
